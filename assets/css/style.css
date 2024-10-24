@@ -501,12 +501,6 @@ mark,
   color: #6c757d;
 }
 
-code {
-  font-size: 87.5%;
-  color: #FC8BC0;
-  word-break: break-word;
-}
-
 a > code {
   color: inherit;
 }
@@ -5137,6 +5131,28 @@ input[type="button"].btn-block {
   bottom: 0;
   left: 0;
   padding: 1.25rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.5);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-text {
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  transform: rotate(-45deg);
+  opacity: 0.8;
 }
 
 .card-img {
@@ -11250,6 +11266,10 @@ p {
   color: #fff;
 }
 
+.grey {
+  color : #5a6268;
+}
+
 .portfolio .portfolio-container .portfolio-item:hover .content-holder {
   opacity: 1;
   visibility: visible;
@@ -11653,7 +11673,10 @@ pre .code {
   width: 100%;
   height: 100%;
   padding-top: 80px;
-  background-image: url("../../assets/imgs/worldMap.jpeg");
+  background-image: url("../../assets/imgs/Form-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .contact .contact-form-card,
@@ -11661,6 +11684,11 @@ pre .code {
   padding: 35px;
   background: #fff;
   min-height: 500px;
+}
+
+.contact .contact-form-card form {
+  overflow: hidden;
+  position: relative;
 }
 
 .contact .contact-info-card {
