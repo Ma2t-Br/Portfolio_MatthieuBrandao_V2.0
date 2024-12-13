@@ -1,0 +1,544 @@
+{
+    "common": {
+        "common-text-fullName": {
+            "Fr": "Matthieu Brandao",
+            "En": "Matthieu Brandao"
+        },
+        "common-text-job": {
+            "Fr": "Etudiant EFREI Paris | Apprenti ingénieur Logiciels et Systèmes d'Informations",
+            "En": "Etudiant EFREI Paris | Apprenti ingénieur Logiciels et Systèmes d'Informations"
+        },
+        "common-text-cvDownloadButton": {
+            "Fr": "Télécharger mon CV",
+            "En": "Télécharger mon CV"
+        },
+        "common-text-title-my": {
+            "Fr": "Mon ",
+            "En": "My "
+        },
+        "common-text-inDev": {
+            "Fr": "En développement",
+            "En": "In devlopment"
+        }
+    },
+    "header": {
+        "header-text-hi": {
+            "Fr": "Bonjour, je suis",
+            "En": "Bonjour, je suis"
+        }
+    },
+    "navbar": {
+        "navbar-text-subtitle": {
+            "Fr": "Votre futur apprenti",
+            "En": "Votre futur apprenti"
+        },
+        "navbar-link-home": {
+            "Fr": "Accueil",
+            "En": "Accueil"
+        },
+        "navbar-link-about": {
+            "Fr": "À propos",
+            "En": "À propos"
+        },
+        "navbar-link-cv": {
+            "Fr": "CV",
+            "En": "CV"
+        },
+        "navbar-link-portfolio": {
+            "Fr": "Portfolio",
+            "En": "Portfolio"
+        },
+        "navbar-link-contact": {
+            "Fr": "Contact",
+            "En": "Contact"
+        }
+    },
+    "about": {
+        "who": {
+            "about-text-who": {
+                "Fr": "Qui suis-je ?",
+                "En": "Qui suis-je ?"
+            },
+            "about-text-details": {
+                "Fr": "Passionné d'informatique depuis le lycée, je suis actuellement étudiant à Efrei Paris. En 2023, j'ai fait le choix d'approfondir mes connaissances dans le développement de logiciels d'informations en alternance. Dynamique et sociable, j'aime animer des ateliers et échanger avec les acteurs de mes projets.",
+                "En": "Passionné d'informatique depuis le lycée, je suis actuellement étudiant à Efrei Paris. En 2023, j'ai fait le choix d'approfondir mes connaissances dans le développement de logiciels d'informations en alternance. Dynamique et sociable, j'aime animer des ateliers et échanger avec les acteurs de mes projets."
+            }
+        },
+        "personalInfos" : {
+            "about-text-personalInfos": {
+                "Fr": "Informations personnelles",
+                "En": "Informations personnelles"
+            },
+            "about-text-yo": {
+                "Fr": "Age",
+                "En": "Age"
+            },
+            "about-text-email": {
+                "Fr": "Email",
+                "En": "Email"
+            },
+            "about-text-phone": {
+                "Fr": "Téléphone",
+                "En": "Téléphone"
+            },
+            "about-text-city": {
+                "Fr": "Ville de résidence",
+                "En": "Ville de résidence"
+            }
+        },
+        "expertise" : {
+            "about-text-expertise": {
+                "Fr": "Mon Expertise",
+                "En": "Mon Expertise"
+            },
+            "about-text-expertise-integration": {
+                "Fr": "Intégration",
+                "En": "Intégration"
+            },
+            "about-text-expertise-integration-details": {
+                "Fr": "Alternance en tant intégrateur de solutions IAM. Conception et support d'une solution interne d'IAM..",
+                "En": "Alternance en tant intégrateur de solutions IAM. Conception et support d'une solution interne d'IAM.."
+            },
+            "about-text-expertise-softDev": {
+                "Fr": "Développement logiciel",
+                "En": "Développement logiciel"
+            },
+            "about-text-expertise-softDev-details": {
+                "Fr": "Conception de logiciels et applications avec diverses languages. Java, C#, C++,..",
+                "En": "Conception de logiciels et applications avec diverses languages. Java, C#, C++,.."
+            },
+            "about-text-expertise-webDev": {
+                "Fr": "Développement web",
+                "En": "Développement web"
+            },
+            "about-text-expertise-webDev-details": {
+                "Fr": "Développement de sites et portfolios. Vue.Js, SpringBoot, HTML, CSS, JavaScript,..",
+                "En": "Développement de sites et portfolios. Vue.Js, SpringBoot, HTML, CSS, JavaScript,.."
+            },
+            "about-text-expertise-projectManagement": {
+                "Fr": "Gestion de projet",
+                "En": "Gestion de projet"
+            },
+            "about-text-expertise-projectManagement-details": {
+                "Fr": "Conduction de projets en écolers et en entreprise. Certification de suivi de formation en gestion de projets..",
+                "En": "Conduction de projets en écolers et en entreprise. Certification de suivi de formation en gestion de projets.."
+            },
+            "about-text-expertise-design": {
+                "Fr": "Creative Design",
+                "En": "Creative Design"
+            },
+            "about-text-expertise-design-details": {
+                "Fr": "Utilisateur d'outils de design, et de modelisation. Tel que Figma, Canva, Dall.E,..",
+                "En": "Utilisateur d'outils de design, et de modelisation. Tel que Figma, Canva, Dall.E,.."
+            }
+        }
+    },
+    "resume": {
+        "resume-text-title": {
+            "Fr": "CV résumé",
+            "En": "CV résumé"
+        },
+        "jobs": {
+            "resume-text-jobs": {
+                "Fr": "Experience",
+                "En": "Experience"
+            },
+            "resume-text-jobs-memority": {
+                "Fr": "Professional Services | Memority",
+                "En": "Professional Services | Memority"
+            },
+            "resume-text-jobs-memority-dates": {
+                "Fr": "2023 - Présent",
+                "En": "2023 - Présent"
+            },
+            "resume-text-jobs-memority-details": {
+                "Fr": "Déploiement et support d'une plateforme d'IAM afin de gérer les employés de Memority. Animation d'ateliers, rédaction de spécifications et intégration de l'application SaaS.",
+                "En": "Déploiement et support d'une plateforme d'IAM afin de gérer les employés de Memority. Animation d'ateliers, rédaction de spécifications et intégration de l'application SaaS."
+            },
+            "resume-text-jobs-efreiTir": {
+                "Fr": "Vice-président | Association Efrei Tir",
+                "En": "Vice-président | Association Efrei Tir"
+            },
+            "resume-text-jobs-efreiTir-dates": {
+                "Fr": "2023 - 2024",
+                "En": "2023 - 2024"
+            },
+            "resume-text-jobs-efreiTir-details": {
+                "Fr": "Assister et à soutenir le président dans les tâches administratives, relationnelles ainsi que dans ses responsabilités. Gestion des responsables de pôles et de la vie de l'association.",
+                "En": "Assister et à soutenir le président dans les tâches administratives, relationnelles ainsi que dans ses responsabilités. Gestion des responsables de pôles et de la vie de l'association."
+            },
+            "resume-text-jobs-efreiTirCom": {
+                "Fr": "Responsable pôle communication | Association Efrei Tir",
+                "En": "Responsable pôle communication | Association Efrei Tir"
+            },
+            "resume-text-jobs-efreiTirCom-dates": {
+                "Fr": "2022 - 2023",
+                "En": "2022 - 2023"
+            },
+            "resume-text-jobs-efreiTirCom-details": {
+                "Fr": "Gestion d'une équipe à la communication d'une association étudiente proposant de l'airsoft, du laser game et du tir à l'arc.",
+                "En": "Gestion d'une équipe à la communication d'une association étudiente proposant de l'airsoft, du laser game et du tir à l'arc."
+            },
+            "resume-text-jobs-maisonSeyssac": {
+                "Fr": "Vendeur de produits haut-de-gamme | Maison Seyssac",
+                "En": "Vendeur de produits haut-de-gamme | Maison Seyssac"
+            },
+            "resume-text-jobs-maisonSeyssac-dates": {
+                "Fr": "2022",
+                "En": "2022"
+            },
+            "resume-text-jobs-maisonSeyssac-details": {
+                "Fr": "Vente de fruits et légumes chez un primeur haut-de-gamme. Ainsi que la gestion des stocks et le maintien du magasin.",
+                "En": "Vente de fruits et légumes chez un primeur haut-de-gamme. Ainsi que la gestion des stocks et le maintien du magasin."
+            }
+        },
+        "education": {
+            "resume-text-eduction": {
+                "Fr": "Formation",
+                "En": "Education"
+            },
+            "resume-text-education-efreiPGE": {
+                "Fr": "Diplome d'ingénieur en logiciels et systèmes d'information EFREI Paris | Villejuif",
+                "En": "Diplome d'ingénieur en logiciels et systèmes d'information EFREI Paris | Villejuif"
+            },
+            "resume-text-education-efreiPGE-dates": {
+                "Fr": "2023 - Présent",
+                "En": "2023 - Présent"
+            },
+            "resume-text-education-efreiPGE-details": {
+                "Fr": "Vise à des compétences solides dans tous les domaines du numérique et une bonne connaissance des réalités de l'entreprise grâce à une formation professionnelle.",
+                "En": "Vise à des compétences solides dans tous les domaines du numérique et une bonne connaissance des réalités de l'entreprise grâce à une formation professionnelle."
+            },
+            "resume-text-education-efreiCPGE": {
+                "Fr": "Prépa intégrée EFREI Paris | Villejuif",
+                "En": "Prépa intégrée EFREI Paris | Villejuif"
+            },
+            "resume-text-education-efreiCPGE-dates": {
+                "Fr": "2021 - 2023",
+                "En": "2021 - 2023"
+            },
+            "resume-text-education-efreiCPGE-details": {
+                "Fr": "Formation des étudiants à acquérir l'ensemble des bases scientifiques et techniques nécessaires à l'intégration du cycle ingénieur. Enseignements plus concrets, en mode projet, qui permettent de développer de réelles compétences au plus tôt dans le parcours.",
+                "En": "Formation des étudiants à acquérir l'ensemble des bases scientifiques et techniques nécessaires à l'intégration du cycle ingénieur. Enseignements plus concrets, en mode projet, qui permettent de développer de réelles compétences au plus tôt dans le parcours."
+            },
+            "resume-text-education-descartes": {
+                "Fr": "Lycée Descartes | Antony",
+                "En": "Lycée Descartes | Antony"
+            },
+            "resume-text-education-descartes-dates": {
+                "Fr": "2018 - 2021",
+                "En": "2018 - 2021"
+            },
+            "resume-text-education-descartes-details": {
+                "Fr": "Baccalauréat spécialité mathématiques et physique, avec mention assez bien.",
+                "En": "Baccalauréat spécialité mathématiques et physique, avec mention assez bien."
+            }
+        },
+        "skills" : {
+            "resume-text-skills": {
+                "Fr": "Compétences",
+                "En": "Compétences"
+            },
+            "resume-text-skills-java": {
+                "Fr": "Java",
+                "En": "Java"
+            },
+            "resume-text-skills-python": {
+                "Fr": "Python",
+                "En": "Python"
+            },
+            "resume-text-skills-sql": {
+                "Fr": "SQL",
+                "En": "SQL"
+            },
+            "resume-text-skills-cs": {
+                "Fr": "C#",
+                "En": "C#"
+            },
+            "resume-text-skills-c": {
+                "Fr": "C",
+                "En": "C"
+            },
+            "resume-text-skills-cpp": {
+                "Fr": "C++",
+                "En": "C++"
+            },
+            "resume-text-skills-web": {
+                "Fr": "HTML | CSS3",
+                "En": "HTML | CSS3"
+            },
+            "resume-text-skills-javaScript": {
+                "Fr": "JavaScript",
+                "En": "JavaScript"
+            },
+            "resume-text-skills-linux": {
+                "Fr": "Linux",
+                "En": "Linux"
+            }
+        },
+        "languages": {
+            "resume-text-languages": {
+                "Fr": "Langues",
+                "En": "Langues"
+            },
+            "resume-text-languages-fr": {
+                "Fr": "Français",
+                "En": "Français"
+            },
+            "resume-text-languages-en": {
+                "Fr": "Anglais",
+                "En": "Anglais"
+            },
+            "resume-text-languages-esp": {
+                "Fr": "Espagnol",
+                "En": "Espagnol"
+            }
+        }
+    },
+    "breakInfos": {
+        "breakInfos-number-infos-nbHCode": {
+            "Fr": "500",
+            "En": "500"
+        },
+        "breakInfos-text-infos-nbHCode": {
+            "Fr": "Heures de code perso",
+            "En": "Heures de code perso"
+        },
+        "breakInfos-number-infos-nbProjects": {
+            "Fr": "20",
+            "En": "20"
+        },
+        "breakInfos-text-infos-nbProjects": {
+            "Fr": "Projets soumis",
+            "En": "Projets soumis"
+        },
+        "breakInfos-number-infos-nbColabs": {
+            "Fr": "40",
+            "En": "40"
+        },
+        "breakInfos-text-infos-nbColabs": {
+            "Fr": "Collaborateurs sur les projets",
+            "En": "Collaborateurs sur les projets"
+        },
+        "breakInfos-number-infos-nbCoffee": {
+            "Fr": "2k",
+            "En": "2k"
+        },
+        "breakInfos-text-infos-nbCoffee": {
+            "Fr": "Litres de Café bus",
+            "En": "Litres de café bus"
+        },
+        "breakInfos-text-contact-sentence": {
+            "Fr": "Je suis disponible pour un échange",
+            "En": "Je suis disponible pour un échange"
+        },
+        "breakInfos-link-contact-button": {
+            "Fr": "Contactez-moi",
+            "En": "Contactez-moi"
+        }
+    },
+    "portfolio": {
+        "portfolio-text-title": {
+            "Fr": "Portfolio",
+            "En": "Portfolio"
+        },
+        "filters": {
+            "portfolio-filter-all": {
+                "Fr": "Tout",
+                "En": "All"
+            },
+            "portfolio-filter-java": {
+                "Fr": "Java",
+                "En": "Java"
+            },
+            "portfolio-filter-c": {
+                "Fr": "C",
+                "En": "C"
+            },
+            "portfolio-filter-cps": {
+                "Fr": "C++/C#",
+                "En": "C++/C#"
+            },
+            "portfolio-filter-web": {
+                "Fr": "Web",
+                "En": "Web"
+            },
+            "portfolio-filter-python": {
+                "Fr": "Python",
+                "En": "Python"
+            },
+            "portfolio-filter-bdd": {
+                "Fr": "BDD(SQL)",
+                "En": "DB(SQL)"
+            }
+        },
+        "common": {
+            "portfolio-common-link-accessButton": {
+                "Fr": "Accéder au code",
+                "En": "Accéder au code"
+            },
+            "portfolio-common-link-downloadButton": {
+                "Fr": "Télécharger le rapport",
+                "En": "Télécharger le rapport"
+            }
+        },
+        "items": {
+            "portfolio-text-monopoly": {
+                "Fr": "Monopoly",
+                "En": "Monopoly"
+            },
+            "portfolio-text-monopoly-details": {
+                "Fr": "Un monopoly en multijoueur en réseaux ! Toutes les rêgles du jeu de société implémentée dans le jeu !",
+                "En": "Un monopoly en multijoueur en réseaux ! Toutes les rêgles du jeu de société implémentée dans le jeu !"
+            },
+            "portfolio-text-shard": {
+                "Fr": "Shard",
+                "En": "Shard"
+            },
+            "portfolio-text-shard-details": {
+                "Fr": "API web backend permettant de jouer à un jeu de vaisseaux spaciaux, se balader de planètes en systèmes, extraire des ressources, attaquer d'autres vaisseaux et parcourir les univers d'autres joueurs.",
+                "En": "API web backend permettant de jouer à un jeu de vaisseaux spaciaux, se balader de planètes en systèmes, extraire des ressources, attaquer d'autres vaisseaux et parcourir les univers d'autres joueurs."
+            },
+            "portfolio-text-eyeTask": {
+                "Fr": "EyeTask",
+                "En": "EyeTask"
+            },
+            "portfolio-text-eyeTask-details": {
+                "Fr": "EyeTask est une application web conçue pour simplifier et optimiser la planification des projets d'entreprise, avec des fonctionnalités de création d'équipes et des alertes intégrées à divers réseaux.",
+                "En": "EyeTask est une application web conçue pour simplifier et optimiser la planification des projets d'entreprise, avec des fonctionnalités de création d'équipes et des alertes intégrées à divers réseaux."
+            },
+            "portfolio-text-bvi": {
+                "Fr": "Bibliothèque virtuelle intelligente",
+                "En": "Bibliothèque virtuelle intelligente"
+            },
+            "portfolio-text-bvi-details": {
+                "Fr": "La bibliothèque virtuelle permettant de rechercher, vous informer et noter vos livres. Mais aussi de vous conseiller via une fonctionnalité intelligente !",
+                "En": "La bibliothèque virtuelle permettant de rechercher, vous informer et noter vos livres. Mais aussi de vous conseiller via une fonctionnalité intelligente !"
+            },
+            "portfolio-text-fanMan": {
+                "Fr": "FanMan",
+                "En": "FanMan"
+            },
+            "portfolio-text-fanMan-details": {
+                "Fr": "Jeu 2D au format téléphone créé en seulement 2 mois. Vous tombez dans le vide et devez éviter les obstacles !",
+                "En": "Jeu 2D au format téléphone créé en seulement 2 mois. Vous tombez dans le vide et devez éviter les obstacles !"
+            },
+            "portfolio-text-sentenceGenerator": {
+                "Fr": "Générateur de phrases",
+                "En": "Générateur de phrases"
+            },
+            "portfolio-text-sentenceGenerator-details": {
+                "Fr": "Nous avons développé un programme capable de générer des phrases grammaticalement correctes à partir d'une base de données de mots, en utilisant un arbre n-aire pour stocker les mots et analyser leurs propriétés grammaticales.",
+                "En": "Nous avons développé un programme capable de générer des phrases grammaticalement correctes à partir d'une base de données de mots, en utilisant un arbre n-aire pour stocker les mots et analyser leurs propriétés grammaticales."
+            },
+            "portfolio-text-takuzu": {
+                "Fr": "Takuzu",
+                "En": "Takuzu"
+            },
+            "portfolio-text-takuzu-details": {
+                "Fr": "Vous connaissiez le Sudoku? Le Takuzu vous attend !Jouable dans l'invite de commande, le but est de remplir une grille de 0 et 1 selon les règles. Le jeu propose plusieurs niveaux de difficulté, des grilles de tailles variées, une personnalisation des grilles, une création automatisée des grilles et une fonction de résolution intelligente pour aider le joueur en cas de blocage.",
+                "En": "Vous connaissiez le Sudoku? Le Takuzu vous attend !Jouable dans l'invite de commande, le but est de remplir une grille de 0 et 1 selon les règles. Le jeu propose plusieurs niveaux de difficulté, des grilles de tailles variées, une personnalisation des grilles, une création automatisée des grilles et une fonction de résolution intelligente pour aider le joueur en cas de blocage."
+            },
+            "portfolio-text-pih": {
+                "Fr": "Park'In Here",
+                "En": "Park'In Here"
+            },
+            "portfolio-text-pih-details": {
+                "Fr": "L'application web développée en React qui vous permet de facilement trouver des places de stationnement à proximité dans Paris.",
+                "En": "L'application web développée en React qui vous permet de facilement trouver des places de stationnement à proximité dans Paris."
+            },
+            "portfolio-text-accountManager": {
+                "Fr": "Gestion de répertoires",
+                "En": "Gestion de répertoires"
+            },
+            "portfolio-text-accountManager-details": {
+                "Fr": "Application native permettant l'inscription de comptes, la gestion de ceux-ci par plusieurs acteurs ainsi que certaines fonctionnalités d'administration.",
+                "En": "Application native permettant l'inscription de comptes, la gestion de ceux-ci par plusieurs acteurs ainsi que certaines fonctionnalités d'administration."
+            },
+            "portfolio-text-bankManager": {
+                "Fr": "Gestion de dossier bancaires",
+                "En": "Gestion de dossier bancaires"
+            },
+            "portfolio-text-bankManager-details": {
+                "Fr": "Prévu pour les banques, cette application permet la manipulation sécurisée de comptes bancaires simples. Allant de la création du compte, jusqu'aux différentes transactions.",
+                "En": "Prévu pour les banques, cette application permet la manipulation sécurisée de comptes bancaires simples. Allant de la création du compte, jusqu'aux différentes transactions."
+            },
+            "portfolio-text-mbd": {
+                "Fr": "Metro, Boulot, Dodo",
+                "En": "Metro, Boulot, Dodo"
+            },
+            "portfolio-text-mbd-details": {
+                "Fr": "A l'image de l'application RATP, ce logiciel avec interface graphique permet de se repérer dans les transports parisiens. Basé sur le plan du metro, en 2016, et les dernières recherches mathématiques en théorie des graphes, le programme vous propose les itinéraires les plus cours pour vous rendre d'une station à une autre.On se retrouve où ?",
+                "En": "A l'image de l'application RATP, ce logiciel avec interface graphique permet de se repérer dans les transports parisiens. Basé sur le plan du metro, en 2016, et les dernières recherches mathématiques en théorie des graphes, le programme vous propose les itinéraires les plus cours pour vous rendre d'une station à une autre.On se retrouve où ?"
+            },
+            "portfolio-text-multimediaStore": {
+                "Fr": "Mutimedia Store",
+                "En": "Mutimedia Store"
+            },
+            "portfolio-text-multimediaStore-details": {
+                "Fr": "Ce projet nous a permit de mettre en application nos compétences en gestion de systèmes d'information. Allant du business plan, passant par les diagrammes de parcours utilisateur et séquences, jusqu'au développement complet du site de vente de produits multimédia.",
+                "En": "Ce projet nous a permit de mettre en application nos compétences en gestion de systèmes d'information. Allant du business plan, passant par les diagrammes de parcours utilisateur et séquences, jusqu'au développement complet du site de vente de produits multimédia."
+            },
+            "portfolio-text-ticketsManager": {
+                "Fr": "Gestion de tickets",
+                "En": "Gestion de tickets"
+            },
+            "portfolio-text-ticketsManager-details": {
+                "Fr": "L'organisation est une priorité dans un projet !Première utilisation de VueJs. Nous souhaitions reproduire un logiciel SaaS de gestion de tickets à l'image de Jira.",
+                "En": "L'organisation est une priorité dans un projet !Première utilisation de VueJs. Nous souhaitions reproduire un logiciel SaaS de gestion de tickets à l'image de Jira."
+            },
+            "portfolio-text-&coute": {
+                "Fr": "&coute",
+                "En": "&coute"
+            },
+            "portfolio-text-&coute-details": {
+                "Fr": "Vrai logiciel de prise de rendez-vous, il est destiné à une psychologue souhaitant arrêter le format papier et se lancer dans le numérique. Les patients peuvent demander des comptes puis ceux-ci seront allimentés durant leurs rendez-vous. Du côté psychologue la planification est plus simple avec la fonctionalité de prise de rendez-vous.",
+                "En": "Vrai logiciel de prise de rendez-vous, il est destiné à une psychologue souhaitant arrêter le format papier et se lancer dans le numérique. Les patients peuvent demander des comptes puis ceux-ci seront allimentés durant leurs rendez-vous. Du côté psychologue la planification est plus simple avec la fonctionalité de prise de rendez-vous."
+            },
+            "portfolio-text-calcarbone": {
+                "Fr": "CalCarbone",
+                "En": "CalCarbone"
+            },
+            "portfolio-text-calcarbone-details": {
+                "Fr": "Première expèrience du JavaScript, ce site web est un calculateur d'empreinte carbone. Perméttant d'entrer ses moyens de transport quotidien et d'obtenir un résultat du CO2 rejeté par période. Il est aussi possible de s'informer via un onglet dédié.",
+                "En": "Première expèrience du JavaScript, ce site web est un calculateur d'empreinte carbone. Perméttant d'entrer ses moyens de transport quotidien et d'obtenir un résultat du CO2 rejeté par période. Il est aussi possible de s'informer via un onglet dédié."
+            }
+        }
+    },
+    "contact": {
+        "form": {
+            "contact-text-title": {
+                "Fr": "Envoyer un message",
+                "En": "Envoyer un message"
+            },
+            "contact-text-send": {
+                "Fr": "Send",
+                "En": "Send"
+            }
+        },
+        "infos": {
+            "contact-text-infos-title": {
+                "Fr": "Me contacter",
+                "En": "Me contacter"
+            },
+            "contact-text-infos-phone": {
+                "Fr": "Téléphone",
+                "En": "Phone"
+            },
+            "contact-text-infos-address": {
+                "Fr": "Adresse",
+                "En": "Address"
+            },
+            "contact-text-infos-email": {
+                "Fr": "Email",
+                "En": "Email"
+            }
+        }
+    },
+    "footer": {
+        "footer-text-copyTag": {
+            "Fr": "©Created by Matthieu Brandao",
+            "En": "©Created by Matthieu Brandao"
+        }
+    }
+}
