@@ -38,19 +38,29 @@ class TranslationManager {
     }
 
     updateContent() {
-        // Parcourir toutes les sections du fichier de traduction
-        for (const section in this.translations) {
-            for (const key in this.translations[section]) {
-                // Utiliser querySelectorAll au lieu de querySelector
-                const elements = document.querySelectorAll(`[data-translate="${key}"]`);
-                if (elements && this.translations[section][key][this.currentLanguage]) {
-                    // Parcourir tous les éléments trouvés
-                    elements.forEach(element => {
-                        element.textContent = this.translations[section][key][this.currentLanguage];
-                    });
+        const updateTranslation = (obj, prefix = '') => {
+            for (const key in obj) {
+                // Vérifie si l'objet contient au moins une traduction
+                if (typeof obj[key] === 'object' && Object.keys(obj[key]).length > 0) {
+                    // Vérifie si c'est un objet de traductions (contient la langue courante)
+                    if (obj[key][this.currentLanguage]) {
+                        const elements = document.querySelectorAll(`[data-translate="${key}"]`);
+                        if (elements.length > 0) {
+                            elements.forEach(element => {
+                                element.textContent = obj[key][this.currentLanguage];
+                            });
+                        } else {
+                            console.log(`Traduction non utilisée : ${key}`);
+                        }
+                    } else {
+                        // Continue la récursion pour les objets imbriqués
+                        updateTranslation(obj[key], `${prefix}${key}.`);
+                    }
                 }
             }
-        }
+        };
+
+        updateTranslation(this.translations);
     }
 }
 
