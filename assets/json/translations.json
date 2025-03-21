@@ -1,0 +1,544 @@
+{
+    "common": {
+        "common-text-fullName": {
+            "Fr": "Matthieu Brandao",
+            "En": "Matthieu Brandao"
+        },
+        "common-text-job": {
+            "Fr": "Etudiant EFREI Paris | Apprenti ingénieur Logiciels et Systèmes d'Informations",
+            "En": "Student at EFREI Paris | Apprentice Software and Information Systems Engineer"
+        },
+        "common-text-cvDownloadButton": {
+            "Fr": "Télécharger mon CV",
+            "En": "Download my CV"
+        },
+        "common-text-title-my": {
+            "Fr": "Mon ",
+            "En": "My "
+        },
+        "common-text-inDev": {
+            "Fr": "En développement",
+            "En": "In development"
+        }
+    },
+    "header": {
+        "header-text-hi": {
+            "Fr": "Bonjour, je suis",
+            "En": "Hello, I am"
+        }
+    },
+    "navbar": {
+        "navbar-text-subtitle": {
+            "Fr": "Votre futur apprenti",
+            "En": "Your future apprentice"
+        },
+        "navbar-link-home": {
+            "Fr": "Accueil",
+            "En": "Home"
+        },
+        "navbar-link-about": {
+            "Fr": "À propos",
+            "En": "About"
+        },
+        "navbar-link-cv": {
+            "Fr": "CV",
+            "En": "CV"
+        },
+        "navbar-link-portfolio": {
+            "Fr": "Portfolio",
+            "En": "Portfolio"
+        },
+        "navbar-link-contact": {
+            "Fr": "Contact",
+            "En": "Contact"
+        }
+    },
+    "about": {
+        "who": {
+            "about-text-who": {
+                "Fr": "Qui suis-je ?",
+                "En": "Who am I?"
+            },
+            "about-text-details": {
+                "Fr": "Passionné d'informatique depuis le lycée, je suis actuellement étudiant à Efrei Paris. En 2023, j'ai fait le choix d'approfondir mes connaissances dans le développement de logiciels d'informations en alternance. Dynamique et sociable, j'aime animer des ateliers et échanger avec les acteurs de mes projets.",
+                "En": "Passionate about computer science since high school, I am currently a student at Efrei Paris. In 2023, I chose to deepen my knowledge in the development of information software in an apprenticeship. Dynamic and sociable, I enjoy leading workshops and exchanging with the stakeholders of my projects."
+            }
+        },
+        "personalInfos": {
+            "about-text-personalInfos": {
+                "Fr": "Informations personnelles",
+                "En": "Personal Information"
+            },
+            "about-text-yo": {
+                "Fr": "Age",
+                "En": "Age"
+            },
+            "about-text-email": {
+                "Fr": "Email",
+                "En": "Email"
+            },
+            "about-text-phone": {
+                "Fr": "Téléphone",
+                "En": "Phone"
+            },
+            "about-text-city": {
+                "Fr": "Ville de résidence",
+                "En": "City of residence"
+            }
+        },
+        "expertise": {
+            "about-text-expertise": {
+                "Fr": "Mon Expertise",
+                "En": "My Expertise"
+            },
+            "about-text-expertise-integration": {
+                "Fr": "Intégration",
+                "En": "Integration"
+            },
+            "about-text-expertise-integration-details": {
+                "Fr": "Alternance en tant intégrateur de solutions IAM. Conception et support d'une solution interne d'IAM..",
+                "En": "Apprenticeship as an IAM solutions integrator. Design and support of an internal IAM solution."
+            },
+            "about-text-expertise-softDev": {
+                "Fr": "Développement logiciel",
+                "En": "Software Development"
+            },
+            "about-text-expertise-softDev-details": {
+                "Fr": "Conception de logiciels et applications avec diverses languages. Java, C#, C++,..",
+                "En": "Design of software and applications with various languages. Java, C#, C++,.."
+            },
+            "about-text-expertise-webDev": {
+                "Fr": "Développement web",
+                "En": "Web Development"
+            },
+            "about-text-expertise-webDev-details": {
+                "Fr": "Développement de sites et portfolios. Vue.Js, SpringBoot, HTML, CSS, JavaScript,..",
+                "En": "Development of websites and portfolios. Vue.Js, SpringBoot, HTML, CSS, JavaScript,.."
+            },
+            "about-text-expertise-projectManagement": {
+                "Fr": "Gestion de projet",
+                "En": "Project Management"
+            },
+            "about-text-expertise-projectManagement-details": {
+                "Fr": "Conduction de projets en écolers et en entreprise. Certification de suivi de formation en gestion de projets..",
+                "En": "Project management in school and corporate settings. Certification in project management training."
+            },
+            "about-text-expertise-design": {
+                "Fr": "Creative Design",
+                "En": "Creative Design"
+            },
+            "about-text-expertise-design-details": {
+                "Fr": "Utilisateur d'outils de design, et de modelisation. Tel que Figma, Canva, Dall.E,..",
+                "En": "User of design and modeling tools such as Figma, Canva, Dall.E,.."
+            }
+        }
+    },
+    "resume": {
+        "resume-text-title": {
+            "Fr": "CV résumé",
+            "En": "Resume Summary"
+        },
+        "jobs": {
+            "resume-text-jobs": {
+                "Fr": "Experience",
+                "En": "Experience"
+            },
+            "resume-text-jobs-memority": {
+                "Fr": "Professional Services | Memority",
+                "En": "Professional Services | Memority"
+            },
+            "resume-text-jobs-memority-dates": {
+                "Fr": "2023 - Présent",
+                "En": "2023 - Present"
+            },
+            "resume-text-jobs-memority-details": {
+                "Fr": "Déploiement et support d'une plateforme d'IAM afin de gérer les employés de Memority. Animation d'ateliers, rédaction de spécifications et intégration de l'application SaaS.",
+                "En": "Deployment and support of an IAM platform to manage Memority employees. Leading workshops, writing specifications, and integrating the SaaS application."
+            },
+            "resume-text-jobs-efreiTir": {
+                "Fr": "Vice-président | Association Efrei Tir",
+                "En": "Vice-President | Efrei Tir Association"
+            },
+            "resume-text-jobs-efreiTir-dates": {
+                "Fr": "2023 - 2024",
+                "En": "2023 - 2024"
+            },
+            "resume-text-jobs-efreiTir-details": {
+                "Fr": "Assister et à soutenir le président dans les tâches administratives, relationnelles ainsi que dans ses responsabilités. Gestion des responsables de pôles et de la vie de l'association.",
+                "En": "Assist and support the president in administrative and relational tasks as well as in their responsibilities. Managing pole leaders and the life of the association."
+            },
+            "resume-text-jobs-efreiTirCom": {
+                "Fr": "Responsable pôle communication | Association Efrei Tir",
+                "En": "Communication Pole Manager | Efrei Tir Association"
+            },
+            "resume-text-jobs-efreiTirCom-dates": {
+                "Fr": "2022 - 2023",
+                "En": "2022 - 2023"
+            },
+            "resume-text-jobs-efreiTirCom-details": {
+                "Fr": "Gestion d'une équipe à la communication d'une association étudiente proposant de l'airsoft, du laser game et du tir à l'arc.",
+                "En": "Managing a team for the communication of a student association offering airsoft, laser tag, and archery."
+            },
+            "resume-text-jobs-maisonSeyssac": {
+                "Fr": "Vendeur de produits haut-de-gamme | Maison Seyssac",
+                "En": "High-end Product Salesperson | Maison Seyssac"
+            },
+            "resume-text-jobs-maisonSeyssac-dates": {
+                "Fr": "2022",
+                "En": "2022"
+            },
+            "resume-text-jobs-maisonSeyssac-details": {
+                "Fr": "Vente de fruits et légumes chez un primeur haut-de-gamme. Ainsi que la gestion des stocks et le maintien du magasin.",
+                "En": "Sale of fruits and vegetables at a high-end greengrocer. Also managing inventory and maintaining the store."
+            }
+        },
+        "education": {
+            "resume-text-eduction": {
+                "Fr": "Formation",
+                "En": "Education"
+            },
+            "resume-text-education-efreiPGE": {
+                "Fr": "Diplome d'ingénieur en logiciels et systèmes d'information EFREI Paris | Villejuif",
+                "En": "Engineering Degree in Software and Information Systems EFREI Paris | Villejuif"
+            },
+            "resume-text-education-efreiPGE-dates": {
+                "Fr": "2023 - Présent",
+                "En": "2023 - Present"
+            },
+            "resume-text-education-efreiPGE-details": {
+                "Fr": "Vise à des compétences solides dans tous les domaines du numérique et une bonne connaissance des réalités de l'entreprise grâce à une formation professionnelle.",
+                "En": "Aims to develop strong skills in all areas of digital technology and a good understanding of business realities through professional training."
+            },
+            "resume-text-education-efreiCPGE": {
+                "Fr": "Prépa intégrée EFREI Paris | Villejuif",
+                "En": "Integrated Preparatory Class EFREI Paris | Villejuif"
+            },
+            "resume-text-education-efreiCPGE-dates": {
+                "Fr": "2021 - 2023",
+                "En": "2021 - 2023"
+            },
+            "resume-text-education-efreiCPGE-details": {
+                "Fr": "Formation des étudiants à acquérir l'ensemble des bases scientifiques et techniques nécessaires à l'intégration du cycle ingénieur. Enseignements plus concrets, en mode projet, qui permettent de développer de réelles compétences au plus tôt dans le parcours.",
+                "En": "Training students to acquire all the scientific and technical basics necessary for integration into the engineering cycle. More concrete teachings, in project mode, which allow the development of real skills early in the course."
+            },
+            "resume-text-education-descartes": {
+                "Fr": "Lycée Descartes | Antony",
+                "En": "Descartes High School | Antony"
+            },
+            "resume-text-education-descartes-dates": {
+                "Fr": "2018 - 2021",
+                "En": "2018 - 2021"
+            },
+            "resume-text-education-descartes-details": {
+                "Fr": "Baccalauréat spécialité mathématiques et physique, avec mention assez bien.",
+                "En": "Baccalaureate specializing in mathematics and physics, with mention 'assez bien'."
+            }
+        },
+        "skills": {
+            "resume-text-skills": {
+                "Fr": "Compétences",
+                "En": "Skills"
+            },
+            "resume-text-skills-java": {
+                "Fr": "Java",
+                "En": "Java"
+            },
+            "resume-text-skills-python": {
+                "Fr": "Python",
+                "En": "Python"
+            },
+            "resume-text-skills-sql": {
+                "Fr": "SQL",
+                "En": "SQL"
+            },
+            "resume-text-skills-cs": {
+                "Fr": "C#",
+                "En": "C#"
+            },
+            "resume-text-skills-c": {
+                "Fr": "C",
+                "En": "C"
+            },
+            "resume-text-skills-cpp": {
+                "Fr": "C++",
+                "En": "C++"
+            },
+            "resume-text-skills-web": {
+                "Fr": "HTML | CSS3",
+                "En": "HTML | CSS3"
+            },
+            "resume-text-skills-javaScript": {
+                "Fr": "JavaScript",
+                "En": "JavaScript"
+            },
+            "resume-text-skills-linux": {
+                "Fr": "Linux",
+                "En": "Linux"
+            }
+        },
+        "languages": {
+            "resume-text-languages": {
+                "Fr": "Langues",
+                "En": "Languages"
+            },
+            "resume-text-languages-fr": {
+                "Fr": "Français",
+                "En": "French"
+            },
+            "resume-text-languages-en": {
+                "Fr": "Anglais",
+                "En": "English"
+            },
+            "resume-text-languages-esp": {
+                "Fr": "Espagnol",
+                "En": "Spanish"
+            }
+        }
+    },
+    "breakInfos": {
+        "breakInfos-number-infos-nbHCode": {
+            "Fr": "500",
+            "En": "500"
+        },
+        "breakInfos-text-infos-nbHCode": {
+            "Fr": "Heures de code perso",
+            "En": "Hours of personal coding"
+        },
+        "breakInfos-number-infos-nbProjects": {
+            "Fr": "20",
+            "En": "20"
+        },
+        "breakInfos-text-infos-nbProjects": {
+            "Fr": "Projets soumis",
+            "En": "Projects submitted"
+        },
+        "breakInfos-number-infos-nbColabs": {
+            "Fr": "40",
+            "En": "40"
+        },
+        "breakInfos-text-infos-nbColabs": {
+            "Fr": "Collaborateurs sur les projets",
+            "En": "Collaborators on projects"
+        },
+        "breakInfos-number-infos-nbCoffee": {
+            "Fr": "2k",
+            "En": "2k"
+        },
+        "breakInfos-text-infos-nbCoffee": {
+            "Fr": "Litres de Café bus",
+            "En": "Liters of coffee consumed"
+        },
+        "breakInfos-text-contact-sentence": {
+            "Fr": "Je suis disponible pour un échange",
+            "En": "I am available for a discussion"
+        },
+        "breakInfos-link-contact-button": {
+            "Fr": "Contactez-moi",
+            "En": "Contact me"
+        }
+    },
+    "portfolio": {
+        "portfolio-text-title": {
+            "Fr": "Portfolio",
+            "En": "Portfolio"
+        },
+        "filters": {
+            "portfolio-filter-all": {
+                "Fr": "Tout",
+                "En": "All"
+            },
+            "portfolio-filter-java": {
+                "Fr": "Java",
+                "En": "Java"
+            },
+            "portfolio-filter-c": {
+                "Fr": "C",
+                "En": "C"
+            },
+            "portfolio-filter-cps": {
+                "Fr": "C++/C#",
+                "En": "C++/C#"
+            },
+            "portfolio-filter-web": {
+                "Fr": "Web",
+                "En": "Web"
+            },
+            "portfolio-filter-python": {
+                "Fr": "Python",
+                "En": "Python"
+            },
+            "portfolio-filter-bdd": {
+                "Fr": "BDD(SQL)",
+                "En": "DB(SQL)"
+            }
+        },
+        "common": {
+            "portfolio-common-link-accessButton": {
+                "Fr": "Accéder au code",
+                "En": "Access the code"
+            },
+            "portfolio-common-link-downloadButton": {
+                "Fr": "Télécharger le rapport",
+                "En": "Download the report"
+            }
+        },
+        "items": {
+            "portfolio-text-monopoly": {
+                "Fr": "Monopoly",
+                "En": "Monopoly"
+            },
+            "portfolio-text-monopoly-details": {
+                "Fr": "Un monopoly en multijoueur en réseaux ! Toutes les rêgles du jeu de société implémentée dans le jeu !",
+                "En": "A multiplayer networked Monopoly! All the rules of the board game implemented in the game!"
+            },
+            "portfolio-text-shard": {
+                "Fr": "Shard",
+                "En": "Shard"
+            },
+            "portfolio-text-shard-details": {
+                "Fr": "API web backend permettant de jouer à un jeu de vaisseaux spaciaux, se balader de planètes en systèmes, extraire des ressources, attaquer d'autres vaisseaux et parcourir les univers d'autres joueurs.",
+                "En": "Web backend API allowing you to play a spaceship game, travel from planets to systems, extract resources, attack other ships, and explore other players' universes."
+            },
+            "portfolio-text-eyeTask": {
+                "Fr": "EyeTask",
+                "En": "EyeTask"
+            },
+            "portfolio-text-eyeTask-details": {
+                "Fr": "EyeTask est une application web conçue pour simplifier et optimiser la planification des projets d'entreprise, avec des fonctionnalités de création d'équipes et des alertes intégrées à divers réseaux.",
+                "En": "EyeTask is a web application designed to simplify and optimize business project planning, with team creation features and alerts integrated into various networks."
+            },
+            "portfolio-text-bvi": {
+                "Fr": "Bibliothèque virtuelle intelligente",
+                "En": "Intelligent Virtual Library"
+            },
+            "portfolio-text-bvi-details": {
+                "Fr": "La bibliothèque virtuelle permettant de rechercher, vous informer et noter vos livres. Mais aussi de vous conseiller via une fonctionnalité intelligente !",
+                "En": "The virtual library allows you to search, inform, and rate your books. It also provides recommendations through an intelligent feature!"
+            },
+            "portfolio-text-fanMan": {
+                "Fr": "FanMan",
+                "En": "FanMan"
+            },
+            "portfolio-text-fanMan-details": {
+                "Fr": "Jeu 2D au format téléphone créé en seulement 2 mois. Vous tombez dans le vide et devez éviter les obstacles !",
+                "En": "2D phone format game created in just 2 months. You fall into the void and must avoid obstacles!"
+            },
+            "portfolio-text-sentenceGenerator": {
+                "Fr": "Générateur de phrases",
+                "En": "Sentence Generator"
+            },
+            "portfolio-text-sentenceGenerator-details": {
+                "Fr": "Nous avons développé un programme capable de générer des phrases grammaticalement correctes à partir d'une base de données de mots, en utilisant un arbre n-aire pour stocker les mots et analyser leurs propriétés grammaticales.",
+                "En": "We developed a program capable of generating grammatically correct sentences from a database of words, using an n-ary tree to store the words and analyze their grammatical properties."
+            },
+            "portfolio-text-takuzu": {
+                "Fr": "Takuzu",
+                "En": "Takuzu"
+            },
+            "portfolio-text-takuzu-details": {
+                "Fr": "Vous connaissiez le Sudoku? Le Takuzu vous attend !Jouable dans l'invite de commande, le but est de remplir une grille de 0 et 1 selon les règles. Le jeu propose plusieurs niveaux de difficulté, des grilles de tailles variées, une personnalisation des grilles, une création automatisée des grilles et une fonction de résolution intelligente pour aider le joueur en cas de blocage.",
+                "En": "You knew Sudoku? Takuzu awaits you! Playable in the command prompt, the goal is to fill a grid of 0s and 1s according to the rules. The game offers several difficulty levels, grids of various sizes, grid customization, automated grid creation, and an intelligent solving function to help the player if they get stuck."
+            },
+            "portfolio-text-pih": {
+                "Fr": "Park'In Here",
+                "En": "Park'In Here"
+            },
+            "portfolio-text-pih-details": {
+                "Fr": "L'application web développée en React qui vous permet de facilement trouver des places de stationnement à proximité dans Paris.",
+                "En": "The web application developed in React that allows you to easily find parking spots nearby in Paris."
+            },
+            "portfolio-text-accountManager": {
+                "Fr": "Gestion de répertoires",
+                "En": "Directory Management"
+            },
+            "portfolio-text-accountManager-details": {
+                "Fr": "Application native permettant l'inscription de comptes, la gestion de ceux-ci par plusieurs acteurs ainsi que certaines fonctionnalités d'administration.",
+                "En": "Native application allowing account registration, management by multiple actors, and certain administrative functionalities."
+            },
+            "portfolio-text-bankManager": {
+                "Fr": "Gestion de dossier bancaires",
+                "En": "Bank File Management"
+            },
+            "portfolio-text-bankManager-details": {
+                "Fr": "Prévu pour les banques, cette application permet la manipulation sécurisée de comptes bancaires simples. Allant de la création du compte, jusqu'aux différentes transactions.",
+                "En": "Designed for banks, this application allows the secure handling of simple bank accounts. From account creation to various transactions."
+            },
+            "portfolio-text-mbd": {
+                "Fr": "Metro, Boulot, Dodo",
+                "En": "Metro, Work, Sleep"
+            },
+            "portfolio-text-mbd-details": {
+                "Fr": "A l'image de l'application RATP, ce logiciel avec interface graphique permet de se repérer dans les transports parisiens. Basé sur le plan du metro, en 2016, et les dernières recherches mathématiques en théorie des graphes, le programme vous propose les itinéraires les plus courts pour vous rendre d'une station à une autre. On se retrouve où ?",
+                "En": "Inspired by the RATP application, this software with a graphical interface allows you to navigate Parisian public transport. Based on the 2016 metro map and the latest mathematical research in graph theory, the program offers the shortest routes to get from one station to another. Where do we meet?"
+            },
+            "portfolio-text-multimediaStore": {
+                "Fr": "Mutimedia Store",
+                "En": "Multimedia Store"
+            },
+            "portfolio-text-multimediaStore-details": {
+                "Fr": "Ce projet nous a permit de mettre en application nos compétences en gestion de systèmes d'information. Allant du business plan, passant par les diagrammes de parcours utilisateur et séquences, jusqu'au développement complet du site de vente de produits multimédia.",
+                "En": "This project allowed us to apply our information systems management skills. From the business plan, through user journey and sequence diagrams, to the complete development of the multimedia product sales website."
+            },
+            "portfolio-text-ticketsManager": {
+                "Fr": "Gestion de tickets",
+                "En": "Ticket Management"
+            },
+            "portfolio-text-ticketsManager-details": {
+                "Fr": "L'organisation est une priorité dans un projet !Première utilisation de VueJs. Nous souhaitions reproduire un logiciel SaaS de gestion de tickets à l'image de Jira.",
+                "En": "Organization is a priority in a project! First use of VueJs. We wanted to reproduce a SaaS ticket management software like Jira."
+            },
+            "portfolio-text-&coute": {
+                "Fr": "&coute",
+                "En": "&coute"
+            },
+            "portfolio-text-&coute-details": {
+                "Fr": "Vrai logiciel de prise de rendez-vous, il est destiné à une psychologue souhaitant arrêter le format papier et se lancer dans le numérique. Les patients peuvent demander des comptes puis ceux-ci seront alimentés durant leurs rendez-vous. Du côté psychologue la planification est plus simple avec la fonctionnalité de prise de rendez-vous.",
+                "En": "A real appointment scheduling software, it is intended for a psychologist who wants to stop using paper and go digital. Patients can request accounts, which will be updated during their appointments. For the psychologist, planning is easier with the appointment scheduling feature."
+            },
+            "portfolio-text-calcarbone": {
+                "Fr": "CalCarbone",
+                "En": "CalCarbone"
+            },
+            "portfolio-text-calcarbone-details": {
+                "Fr": "Première expèrience du JavaScript, ce site web est un calculateur d'empreinte carbone. Perméttant d'entrer ses moyens de transport quotidien et d'obtenir un résultat du CO2 rejeté par période. Il est aussi possible de s'informer via un onglet dédié.",
+                "En": "First experience with JavaScript, this website is a carbon footprint calculator. It allows you to enter your daily means of transportation and get a result of the CO2 emitted per period. It is also possible to get information via a dedicated tab."
+            }
+        }
+    },
+    "contact": {
+        "form": {
+            "contact-text-title": {
+                "Fr": "Envoyer un message",
+                "En": "Send a message"
+            },
+            "contact-text-send": {
+                "Fr": "Envoyer",
+                "En": "Send"
+            }
+        },
+        "infos": {
+            "contact-text-infos-title": {
+                "Fr": "Me contacter",
+                "En": "Contact me"
+            },
+            "contact-text-infos-phone": {
+                "Fr": "Téléphone : ",
+                "En": "Phone : "
+            },
+            "contact-text-infos-address": {
+                "Fr": "Adresse : ",
+                "En": "Address : "
+            },
+            "contact-text-infos-email": {
+                "Fr": "Email : ",
+                "En": "Email : "
+            }
+        }
+    },
+    "footer": {
+        "footer-text-copyTag": {
+            "Fr": "©Created by Matthieu Brandao",
+            "En": "©Created by Matthieu Brandao"
+        }
+    }
+}
