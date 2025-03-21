@@ -6,7 +6,7 @@
         },
         "common-text-job": {
             "Fr": "Etudiant EFREI Paris | Apprenti ingénieur Logiciels et Systèmes d'Informations",
-            "En": "Student at EFREI Paris | Apprentice Software and Information Systems Engineer"
+            "En": "Student at EFREI Paris | Apprentice Software Engineer"
         },
         "common-text-cvDownloadButton": {
             "Fr": "Télécharger mon CV",
@@ -61,7 +61,7 @@
             },
             "about-text-details": {
                 "Fr": "Passionné d'informatique depuis le lycée, je suis actuellement étudiant à Efrei Paris. En 2023, j'ai fait le choix d'approfondir mes connaissances dans le développement de logiciels d'informations en alternance. Dynamique et sociable, j'aime animer des ateliers et échanger avec les acteurs de mes projets.",
-                "En": "Passionate about computer science since high school, I am currently a student at Efrei Paris. In 2023, I chose to deepen my knowledge in the development of information software in an apprenticeship. Dynamic and sociable, I enjoy leading workshops and exchanging with the stakeholders of my projects."
+                "En": "Passionate about computer science since high school, I am currently a student at Efrei Paris. In 2023, I chose to deepen my knowledge in the development of information systems in an apprenticeship. Dynamic and sociable, I enjoy leading workshops and exchanging with the stakeholders of my projects."
             }
         },
         "personalInfos": {
@@ -120,7 +120,7 @@
                 "En": "Project Management"
             },
             "about-text-expertise-projectManagement-details": {
-                "Fr": "Conduction de projets en écolers et en entreprise. Certification de suivi de formation en gestion de projets..",
+                "Fr": "Conduction de projets en école et en entreprise. Certification de suivi de formation en gestion de projets..",
                 "En": "Project management in school and corporate settings. Certification in project management training."
             },
             "about-text-expertise-design": {
