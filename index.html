@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Portfolio Matthieu Brandao">
     <meta name="author" content="Matthieu Brandao">
@@ -9,21 +9,21 @@
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + main styles -->
-	<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-3">
                 <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/matthieu-brandao-6668a0221/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
-            </ul>  
+            </ul>
             <div class="header-content">
-                <h4 class="header-subtitle" >Bonjour, je suis</h4>
-                <h1 class="header-title">Matthieu Brandao</h1>
-                <h6 class="header-mono" >Etudiant EFREI Paris | Apprenti ingénieur Logiciels et Systèmes d'Informations</h6>
-                <button class="btn btn-primary btn-rounded">
+                <h4 class="header-subtitle" data-translate="header-text-hi">Bonjour, je suis</h4>
+                <h1 class="header-title" data-translate="common-text-fullName">Matthieu Brandao</h1>
+                <h6 class="header-mono" data-translate="common-text-job">Etudiant EFREI Paris | Apprenti ingénieur Logiciels et Systèmes d'Informations</h6>
+                <button class="btn btn-primary btn-rounded" href="components.html">
                     <i class="ti-printer pr-2"></i>
-                    <a style="color: white" href="assets/docs/CV - Matthieu Brandao - 2024 - Français.pdf">Télécharger le CV</a>
+                    <a style="color: white" href="assets/docs/CV - Matthieu Brandao - 2024 - Français.pdf" data-translate="common-text-cvDownloadButton">Télécharger le CV</a>
                 </button>
             </div>
         </div>
@@ -36,99 +36,106 @@
             <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">Accueil</a>
+                        <a href="#home" class="nav-link" data-translate="navbar-link-home">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">À propos</a>
+                        <a href="#about" class="nav-link" data-translate="navbar-link-about">À propos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link">CV</a>
+                        <a href="#resume" class="nav-link" data-translate="navbar-link-cv">CV</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
                     <img src="assets/imgs/avatar.jpg" alt="" class="brand-img">
                     <li class="brand-txt">
-                        <h5 class="brand-title">Matthieu Brandao</h5>
-                        <div class="brand-subtitle">Votre futur apprenti</div>
+                        <h5 class="brand-title" data-translate="common-text-fullName">Matthieu Brandao</h5>
+                        <div class="brand-subtitle" data-translate="navbar-text-subtitle">Votre futur apprenti</div>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                        <a href="#portfolio" class="nav-link" data-translate="navbar-link-portfolio">Portfolio</a>
                     </li>
-                    <li class="nav-item last-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" data-translate="navbar-link-contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="languageToggle" class="btn btn-primary">
+                            <span id="languageText">EN</span>
+                        </button>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <!-- About section -->
     <div class="container-fluid">
         <div id="about" class="row about-section">
             <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Qui suis-je ?</h3>
+                <h3 class="font-weight-light" data-translate="about-text-who">Qui suis-je ?</h3>
                 <span class="line mb-5"></span>
-                <h5 class="mb-3">Etudiant EFREI Paris | Apprenti ingénieur Logiciels et Systèmes d'Informations</h5>
-                <p class="mt-20">Passionné d'informatique depuis le lycée, je suis actuellement étudiant à Efrei Paris. En 2023, j'ai fait le choix d'approfondir mes connaissances dans le développement de logiciels d'informations en alternance. Dynamique et sociable, j'aime animer des ateliers et échanger avec les acteurs de mes projets.</p>
+                <h5 class="mb-3" data-translate="common-text-job">Etudiant EFREI Paris | Apprenti ingénieur Logiciels et Systèmes d'Informations</h5>
+                <p class="mt-20" data-translate="about-text-details">Passionné d'informatique depuis le lycée, je suis actuellement étudiant à Efrei Paris. En 2023, j'ai fait le choix d'approfondir mes connaissances dans le développement de logiciels d'informations en alternance. Dynamique et sociable, j'aime animer des ateliers et échanger avec les acteurs de mes projets.</p>
                 <button class="btn btn-outline-danger">
                     <a href="assets/docs/CV - Matthieu Brandao - 2024 - Français.pdf">
-                        <i class="icon-down-circled2 "></i>Télécharger mon CV
+                        <i class="icon-down-circled2"></i><span data-translate="common-text-cvDownloadButton">Télécharger mon CV</span>
                     </a>
                 </button>
             </div>
             <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Informations personnelles</h3>
+                <h3 class="font-weight-light" data-translate="about-text-personalInfos">Informations personnelles</h3>
                 <span class="line mb-5"></span>
                 <ul class="mt40 info list-unstyled">
-                    <li><span>Age</span> : 21 ans</li>
-                    <li><span>Email</span> : matthieu.brandao@gmail.com</li>
-                    <li><span>Téléphone</span> : +33 7 82 94 24 91</li>
-                    <li><span>Ville de résidence</span> :  France, Antony 92160.</li>
+                    <li><span data-translate="about-text-yo">Age</span> : 21</li>
+                    <li><span data-translate="about-text-email">Email</span> : matthieu.brandao@gmail.com</li>
+                    <li><span data-translate="about-text-phone">Téléphone</span> : +33 7 82 94 24 91</li>
+                    <li><span data-translate="about-text-city">Ville de résidence</span> :  France, Antony 92160.</li>
                 </ul>
                 <ul class="social-icons pt-3">
                     <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/matthieu-brandao-6668a0221/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
-                </ul>  
+                </ul>
             </div>
             <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Mon Expertise</h3>
+                <h3 class="font-weight-light" data-translate="about-text-expertise">Mon Expertise</h3>
                 <span class="line mb-5"></span>
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>Intégration</h6>
-                        <p class="subtitle">Alternance en tant intégrateur de solutions IAM.<br>Conception et support d'une solution interne d'IAM..</p>
+                        <h6  data-translate="about-text-expertise-integration">Intégration</h6>
+                        <p class="subtitle" data-translate="about-text-expertise-integration-details">Alternance en tant intégrateur de solutions IAM.<br>Conception et support d'une solution interne d'IAM..</p>
                         <hr>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>Développement logiciel</h6>
-                        <p class="subtitle">Conception de logiciels et applications avec diverses languages.<br>Java, C#, C++,..</p>
+                        <h6 data-translate="about-text-expertise-softDev">Développement logiciel</h6>
+                        <p class="subtitle" data-translate="about-text-expertise-softDev-details">Conception de logiciels et applications avec diverses languages.<br>Java, C#, C++,..</p>
                         <hr>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="ti-world icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>Développement web</h6>
-                        <p class="subtitle">Développement de sites et portfolios.<br>Vue.Js, HTML, CSS, JavaScript,..</p>
+                        <h6 data-translate="about-text-expertise-webDev">Développement web</h6>
+                        <p class="subtitle" data-translate="about-text-expertise-webDev-details">Développement de sites et portfolios.<br>Vue.Js, SpringBoot, HTML, CSS, JavaScript,..</p>
                         <hr>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="ti-server icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>Gestion de projet</h6>
-                        <p class="subtitle">Conduction de projets en écolers et en entreprise.<br>Certification de suivi de formation en gestion de projets..</p>
+                        <h6 data-translate="about-text-expertise-projectManagement">Gestion de projet</h6>
+                        <p class="subtitle" data-translate="about-text-expertise-projectManagement-details">Conduction de projets en écolers et en entreprise.<br>Certification de suivi de formation en gestion de projets..</p>
                         <hr>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="ti-brush icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>Creative Design</h6>
-                        <p class="subtitle">Utilisateur d'outils de design, et de modelisation.<br>Tel que Figma, Canva, Dall.E,..</p>
+                        <h6 data-translate="about-text-expertise-design">Creative Design</h6>
+                        <p class="subtitle" data-translate="about-text-expertise-design-details">Utilisateur d'outils de design, et de modelisation.<br>Tel que Figma, Canva, Dall.E,..</p>
                         <hr>
                     </div>
                 </div>
@@ -136,141 +143,140 @@
         </div>
     </div>
 
-    <!--Resume Section-->
+    <!-- Resume Section -->
     <section class="section" id="resume">
         <div class="container">
-            <h2 class="mb-5"><span class="text-danger">Mon </span>CV résumé</h2>
+            <h2 class="mb-5"><span class="text-danger" data-translate="common-text-title-my">Mon </span><span data-translate="resume-text-title">CV résumé</span></h2>
             <div class="row">
                 <div class="col-md-6 col-lg-4">
                     <div class="card">
-                       <div class="card-header">
+                        <div class="card-header">
                             <div class="mt-2">
-                                <h4>Experience</h4>
-                                <span class="line"></span>  
+                                <h4 data-translate="resume-text-jobs">Experience</h4>
+                                <span class="line"></span>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h6 class="title text-danger">2023 - Présent</h6>
-                            <P><b>Professional Services | Memority</b></P>
-                            <P class="subtitle">Déploiement et support d'une plateforme d'IAM afin de gérer les employés de Memority. Animation d'ateliers, rédaction de spécifications et intégration de l'application SaaS.</P>
+                            <h6 class="title text-danger" data-translate="resume-text-jobs-memority-dates">2023 - Présent</h6>
+                            <P><b data-translate="resume-text-jobs-memority">Professional Services | Memority</b></P>
+                            <P class="subtitle" data-translate="resume-text-jobs-memority-details">Déploiement et support d'une plateforme d'IAM afin de gérer les employés de Memority. Animation d'ateliers, rédaction de spécifications et intégration de l'application SaaS.</P>
                             <hr>
-                            <h6 class="title text-danger">2023 - 2024</h6>
-                            <P><b>Vice-président | Association Efrei Tir</b></P>
-                            <P class="subtitle">Assister et à soutenir le président dans les tâches administratives, relationnelles ainsi que dans ses responsabilités. Gestion des responsables de pôles et de la vie de l'association.</P>
+                            <h6 class="title text-danger" data-translate="resume-text-jobs-efreiTir-dates">2023 - 2024</h6>
+                            <P><b data-translate="resume-text-jobs-efreiTir">Vice-président | Association Efrei Tir</b></P>
+                            <P class="subtitle" data-translate="resume-text-jobs-efreiTir-details">Assister et à soutenir le président dans les tâches administratives, relationnelles ainsi que dans ses responsabilités. Gestion des responsables de pôles et de la vie de l'association.</P>
                             <hr>
-                            <h6 class="title text-danger">2022 - 2023</h6>
-                            <P><b>Responsable pôle communication | Association Efrei Tir</b></P>
-                            <P class="subtitle">Gestion d'une équipe à la communication d'une association étudiente proposant de l'airsoft, du laser game et du tir à l'arc.</P>
+                            <h6 class="title text-danger" data-translate="resume-text-jobs-efreiTirCom-dates">2022 - 2023</h6>
+                            <P><b data-translate="resume-text-jobs-efreiTirCom">Responsable pôle communication | Association Efrei Tir</b></P>
+                            <P class="subtitle" data-translate="resume-text-jobs-efreiTirCom">Gestion d'une équipe à la communication d'une association étudiente proposant de l'airsoft, du laser game et du tir à l'arc.</P>
                             <hr>
-                            <h6 class="title text-danger">2022</h6>
-                            <P><b>Vendeur de produits haut-de-gamme | Maison Seyssac</b></P>
-                            <P class="subtitle">Vente de fruits et légumes chez un primeur haut-de-gamme. Ainsi que la gestion des stocks et le maintien du magasin.</P>
+                            <h6 class="title text-danger" data-translate="resume-text-jobs-maisonSeyssac-dates">2022</h6>
+                            <P><b data-translate="resume-text-jobs-maisonSeyssac">Vendeur de produits haut-de-gamme | Maison Seyssac</b></P>
+                            <P class="subtitle" data-translate="resume-text-jobs-maisonSeyssac-details">Vente de fruits et légumes chez un primeur haut-de-gamme. Ainsi que la gestion des stocks et le maintien du magasin.</P>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card">
-                       <div class="card-header">
+                        <div class="card-header">
                             <div class="mt-2">
-                                <h4>Education</h4>
-                                <span class="line"></span>  
+                                <h4 data-translate="resume-text-education">Education</h4>
+                                <span class="line"></span>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h6 class="title text-danger">2023 - Présent</h6>
+                            <h6 class="title text-danger" data-translate="resume-text-education-efreiPGE-dates">2023 - Présent</h6>
                             <P>
-                                <b>Diplome d'ingénieur en logiciels et systèmes d'information EFREI Paris | Villejuif</b>
+                                <b data-translate="resume-text-education-efreiPGE">Diplome d'ingénieur en logiciels et systèmes d'information EFREI Paris | Villejuif</b>
                                 <a href="https://www.efrei.fr/programme-grande-ecole/cycle-ingenieur-par-apprentissage-lsi-hybride/" target="_blank">
                                     <i class="ti-world text-danger" style="margin: 5px"></i>
                                 </a>
                             </P>
-                            <p>Vise à des compétences solides dans tous les domaines du numérique et une bonne connaissance des réalités de l’entreprise grâce à une formation professionnelle.</p>
+                            <p data-translate="resume-text-education-efreiPGE-details">Vise à des compétences solides dans tous les domaines du numérique et une bonne connaissance des réalités de l'entreprise grâce à une formation professionnelle.</p>
                             <hr>
-                            <h6 class="title text-danger">2021 - 2023</h6>
+                            <h6 class="title text-danger" data-translate="resume-text-education-efreiCPGE-dates">2021 - 2023</h6>
                             <P>
-                                <b>Prépa intégrée EFREI Paris | Villejuif</b>
+                                <b data-translate="resume-text-education-efreiCPGE">Prépa intégrée EFREI Paris | Villejuif</b>
                                 <a href="https://www.efrei.fr/programme-grande-ecole/les-prepas/" target="_blank">
                                     <i class="ti-world text-danger" style="margin: 5px"></i>
                                 </a>
                             </P>
-                            <p>Formation des étudiants à acquérir l’ensemble des bases scientifiques et techniques nécessaires à l’intégration du cycle ingénieur. Enseignements plus concrets, en mode projet, qui permettent de développer de réelles compétences au plus tôt dans le parcours.</p>
+                            <p data-translate="resume-text-education-efreiCPGE-details">Formation des étudiants à acquérir l'ensemble des bases scientifiques et techniques nécessaires à l'intégration du cycle ingénieur. Enseignements plus concrets, en mode projet, qui permettent de développer de réelles compétences au plus tôt dans le parcours.</p>
                             <hr>
-                            <h6 class="title text-danger">2018 - 2021</h6>
+                            <h6 class="title text-danger" data-translate="resume-text-education-descartes-dates">2018 - 2021</h6>
                             <P>
-                                <b>Lycée Descartes | Antony</b>
+                                <b data-translate="resume-text-education-descartes">Lycée Descartes | Antony</b>
                                 <a href="assets/docs/Baccalauréat général.pdf" target="_blank">
                                     <i class="ti-file text-danger" style="margin: 5px"></i>
                                 </a>
                             </P>
-                            <p>Passage du baccalauréat spécialité mathématiques et physique, avec mention assez bien.</p>
+                            <p data-translate="resume-text-education-descartes-details">Baccalauréat spécialité mathématiques et physique, avec mention assez bien.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card">
-                       <div class="card-header">
+                        <div class="card-header">
                             <div class="pull-left">
-                                <h4 class="mt-2">Compétences</h4>
-                                <span class="line"></span>  
+                                <h4 class="mt-2" data-translate="resume-text-skills">Compétences</h4>
+                                <span class="line"></span>
                             </div>
                         </div>
                         <div class="card-body pb-2">
-                            <h6>Java</h6>
+                            <h6 data-translate="resume-text-skills-java">Java</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>Python</h6>
+                            <h6 data-translate="resume-text-skills-python">Python</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>SQL</h6>
+                            <h6  data-translate="resume-text-skills-sql">SQL</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>C#</h6>
+                            <h6  data-translate="resume-text-skills-cs">C#</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>C</h6>
+                            <h6  data-translate="resume-text-skills-c">C</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>C++</h6>
+                            <h6  data-translate="resume-text-skills-cpp">C++</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>HTML5 &amp; CSS3</h6>
+                            <h6 data-translate="resume-text-skills-web">HTML5 &amp; CSS3</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>JavaScript</h6>
+                            <h6 data-translate="resume-text-skills-javaScript">JavaScript</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>Linux</h6>
+                            <h6  data-translate="resume-text-skills-linux">Linux</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
                     <div class="card">
-                       <div class="card-header">
+                        <div class="card-header">
                             <div class="pull-left">
-                                <h4 class="mt-2">Langues</h4>
-                                <span class="line"></span>  
+                                <h4 class="mt-2" data-translate="resume-text-languages">Langues</h4>
+                                <span class="line"></span>
                             </div>
                         </div>
                         <div class="card-body pb-2">
-                            <h6>Français</h6>
+                            <h6 data-translate="resume-text-languages-fr">Français</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                           <h6>Anglais</h6>
+                            <h6 data-translate="resume-text-languages-en">Anglais</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 72%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-
-                            <h6>Espagnol</h6>
+                            <h6 data-translate="resume-text-languages-esp">Espagnol</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -281,6 +287,7 @@
         </div>
     </section>
 
+    <!-- BreakInfos Section -->
     <section class="section bg-dark text-center">
         <div class="container">
             <div class="row text-center">
@@ -290,8 +297,8 @@
                             <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">500</h1>
-                            <p class="text-light mb-1">heures de code perso</p>
+                            <h1 class="text-danger font-weight-bold font40" data-translate="breakInfos-number-infos-nbHCode">500</h1>
+                            <p class="text-light mb-1" data-translate="breakInfos-text-infos-nbHCode">heures de code perso</p>
                         </div>
                     </div>
                 </div>
@@ -301,8 +308,8 @@
                             <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">20</h1>
-                            <p class="text-light mb-1">Projects Soumis</p>
+                            <h1 class="text-danger font-weight-bold font40" data-translate="breakInfos-number-infos-nbProjects">20</h1>
+                            <p class="text-light mb-1" data-translate="breakInfos-text-infos-nbProjects">Projets Soumis</p>
                         </div>
                     </div>
                 </div>
@@ -312,8 +319,8 @@
                             <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">40</h1>
-                            <p class="text-light mb-1">Collaborateurs sur les projets</p>
+                            <h1 class="text-danger font-weight-bold font40" data-translate="breakInfos-number-infos-nbColabs">40</h1>
+                            <p class="text-light mb-1" data-translate="breakInfos-text-infos-nbColabs">Collaborateurs sur les projets</p>
                         </div>
                     </div>
                 </div>
@@ -323,20 +330,19 @@
                             <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">2k</h1>
-                            <p class="text-light mb-1">Litres de café bus</p>
+                            <h1 class="text-danger font-weight-bold font40" data-translate="breakInfos-number-infos-nbCoffee">2k</h1>
+                            <p class="text-light mb-1" data-translate="breakInfos-text-infos-nbCoffee">Litres de café bus</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <section class="section bg-dark py-5">
         <div class="container text-center">
-            <h2 class="text-light mb-5 font-weight-normal">Je suis disponible pour un échange</h2>
+            <h2 class="text-light mb-5 font-weight-normal" data-translate="breakInfos-text-contact-sentence">Je suis disponible pour un échange</h2>
             <button class="btn bg-primary w-lg" >
-                <a href="#contact" style="color: white">Contactez-moi</a>
+                <a href="#contact" style="color: white" data-translate="breakInfos-link-contact-button">Contactez-moi</a>
             </button>
         </div>
     </section>
@@ -344,324 +350,359 @@
     <!-- Portfolio Section -->
     <section class="section bg-custom-gray" id="portfolio">
         <div class="container">
-            <h1 class="mb-5"><span class="text-danger">Mon</span> Portfolio</h1>
+            <h2 class="mb-5"><span class="text-danger" data-translate="common-text-title-my">Mon </span><span data-translate="portfolio-text-title">Portfolio</span></h2>
             <div class="portfolio">
                 <div class="filters">
-                    <a href="#" data-filter=".new" class="active">
+                    <a href="#" data-filter="" class="active" data-translate="portfolio-filter-all">
                         All
                     </a>
-                    <a href="#" data-filter=".java">
+                    <a href="#" data-filter=".java" data-translate="portfolio-filter-java">
                         Java
                     </a>
-                    <a href="#" data-filter=".c">
+                    <a href="#" data-filter=".c" data-translate="portfolio-filter-c">
                         C
                     </a>
-                    <a href="#" data-filter=".cps" style="min-width:60px;">
+                    <a href="#" data-filter=".cps" style="min-width:60px;" data-translate="portfolio-filter-cps">
                         C++/C#
                     </a>
-                    <a href="#" data-filter=".web">
+                    <a href="#" data-filter=".web" data-translate="portfolio-filter-web">
                         Web
                     </a>
-                    <a href="#" data-filter=".python">
+                    <a href="#" data-filter=".python" data-translate="portfolio-filter-python">
                         Python
                     </a>
-                    <a href="#" data-filter=".bdd">
+                    <a href="#" data-filter=".bdd" data-translate="portfolio-filter-bdd">
                         BDD(SQL)
                     </a>
+                    <a href="#" data-filter=".mobile" data-translate="portfolio-filter-mobile">
+                        Mobile
+                    </a>
                 </div>
-                <div class="portfolio-container"> 
-                    <div class="col-md-6 col-lg-4 java new">
+                <div class="portfolio-container">
+                    <div class="col-md-6 col-lg-4 java">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/Monopoly.png" class="img-fluid" alt="Monopoly">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/Monopoly.png"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">Monopoly</h6>
-                                    <p class="subtitle">Un monopoly en multijoueur en réseaux ! Toutes les rêgles du jeu de société implémentée dans le jeu !</p>
+                                    <h6 class="title" data-translate="portfolio-text-monopoly">Monopoly</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-monopoly-details">Un monopoly en multijoueur en réseaux ! Toutes les rêgles du jeu de société implémentée dans le jeu !</p>
                                     <button class="btn btn-primary btn-rounded" >
                                         <i class="ti-files pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Codes/Monopoly_2024.zip">Accéder au code</a>
+                                        <a style="color: white" href="assets/docs/Codes/Monopoly_2024.zip" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
                                     </button>
                                 </div>
-                            </div>   
-                        </div>             
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 cps new">
+                    <div class="col-md-6 col-lg-4 cps">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/Shard.png" class="img-fluid" alt="Shard">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/Shard.png"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">Shard</h6>
-                                    <p class="subtitle">API web backend permettant de jouer à un jeu de vaisseaux spaciaux, se balader de planètes en systèmes, extraire des ressources, attaquer d'autres vaisseaux et parcourir les univers d'autres joueurs.</p>
+                                    <h6 class="title" data-translate="portfolio-text-shard">Shard</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-shard-details">API web backend permettant de jouer à un jeu de vaisseaux spaciaux, se balader de planètes en systèmes, extraire des ressources, attaquer d'autres vaisseaux et parcourir les univers d'autres joueurs.</p>
                                     <button class="btn btn-primary btn-rounded" >
                                         <i class="ti-files pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Codes/Shard_2024.zip">Accéder au code</a>
+                                        <a style="color: white" href="assets/docs/Codes/Shard_2024.zip" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
                                     </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 python web bdd new">
+                    <div class="col-md-6 col-lg-4 python web bdd">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/EyeTask.png" class="img-fluid" alt="EyeTask">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/EyeTask.png"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">EyeTask</h6>
-                                    <p class="subtitle">EyeTask est une application web conçue pour simplifier et optimiser la planification des projets d'entreprise, avec des fonctionnalités de création d'équipes et des alertes intégrées à divers réseaux.</p>
+                                    <h6 class="title" data-translate="portfolio-text-eyeTask">EyeTask</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-eyeTask-details">EyeTask est une application web conçue pour simplifier et optimiser la planification des projets d'entreprise, avec des fonctionnalités de création d'équipes et des alertes intégrées à divers réseaux.</p>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-cloud-down pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Reports/EyeTask - Rapport.pdf">Télécharger le rapport</a>
+                                        <a style="color: white" href="assets/docs/Reports/EyeTask - Rapport.pdf" data-translate="portfolio-common-link-downloadButton">Télécharger le rapport</a>
                                     </button>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-files pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Codes/EyeTask_2023.zip">Accéder au code</a>
+                                        <a style="color: white" href="assets/docs/Codes/EyeTask_2023.zip" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
                                     </button>
                                 </div>
-                            </div> 
-                        </div>                         
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 c new">
+                    <div class="col-md-6 col-lg-4 c">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/BVI.png" class="img-fluid" alt="Bibliothèque virtuelle intelligente">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/BVI.png"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">Bibliothèque virtuelle intelligente</h6>
-                                    <p class="subtitle">La bibliothèque virtuelle permettant de rechercher, vous informer et noter vos livres. Mais aussi de vous conseiller via une fonctionnalité intelligente !</p>
+                                    <h6 class="title" data-translate="portfolio-text-bvi">Bibliothèque virtuelle intelligente</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-bvi-details">La bibliothèque virtuelle permettant de rechercher, vous informer et noter vos livres. Mais aussi de vous conseiller via une fonctionnalité intelligente !</p>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-cloud-down pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Reports/Bibliothèque Virtuelle Intelligente - Rapport.pdf">Télécharger le rapport</a>
+                                        <a style="color: white" href="assets/docs/Reports/Bibliothèque Virtuelle Intelligente - Rapport.pdf" data-translate="portfolio-common-link-button-downloadButton">Télécharger le rapport</a>
                                     </button>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-files pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Codes/BVI_2022.zip">Accéder au code</a>
+                                        <a style="color: white" href="assets/docs/Codes/BVI_2022.zip" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
                                     </button>
                                 </div>
                             </div>
-                        </div>                                                     
+                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 python new">
+                    <div class="col-md-6 col-lg-4 python">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/FanMan.jpg" class="img-fluid" alt="FanMan">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/FanMan.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">FanMan</h6>
-                                    <p class="subtitle">Jeu 2D au format téléphone créé en seulement 2 mois. Vous tombez dans le vide et devez éviter les obstacles !</p>
+                                    <h6 class="title" data-translate="portfolio-text-fanMan">FanMan</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-fanMan-details">Jeu 2D au format téléphone créé en seulement 2 mois. Vous tombez dans le vide et devez éviter les obstacles !</p>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-cloud-down pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Reports/FanMan - Rapport.pdf">Télécharger le rapport</a>
+                                        <a style="color: white" href="assets/docs/Reports/FanMan - Rapport.pdf" data-translate="portfolio-common-link-downloadButton">Télécharger le rapport</a>
                                     </button>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-files pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Codes/FanMan_2022.zip">Accéder au code</a>
+                                        <a style="color: white" href="assets/docs/Codes/FanMan_2022.zip" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
                                     </button>
                                 </div>
                             </div>
-                        </div>                                                       
-                    </div> 
-                    <div class="col-md-6 col-lg-4 c new">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 c">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/SentenceGenerator.png" class="img-fluid" alt="SentenceGenerator">
-                           <div class="content-holder">
+                            <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/SentenceGenerator.png"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">Générateur de phrases</h6>
-                                    <p class="subtitle">Nous avons développé un programme capable de générer des phrases grammaticalement correctes à partir d'une base de données de mots, en utilisant un arbre n-aire pour stocker les mots et analyser leurs propriétés grammaticales.</p>
+                                    <h6 class="title" data-translate="portfolio-text-sentenceGenerator">Générateur de phrases</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-sentenceGenerator-details">Nous avons développé un programme capable de générer des phrases grammaticalement correctes à partir d'une base de données de mots, en utilisant un arbre n-aire pour stocker les mots et analyser leurs propriétés grammaticales.</p>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-cloud-down pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Reports/Générateur de phrases - Rapport.pdf">Télécharger le rapport</a>
+                                        <a style="color: white" href="assets/docs/Reports/Générateur de phrases - Rapport.pdf" data-translate="portfolio-common-link-downloadButton">Télécharger le rapport</a>
                                     </button>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-files pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Codes/SentenceGenerator_2022.zip">Accéder au code</a>
+                                        <a style="color: white" href="assets/docs/Codes/SentenceGenerator_2022.zip" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
                                     </button>
                                 </div>
                             </div>
-                        </div>                                                     
+                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 c new">
+                    <div class="col-md-6 col-lg-4 c">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/Takuzu.png" class="img-fluid" alt="Takuzu">
-                           <div class="content-holder">
+                            <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/Takuzu.png"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">Takuzu</h6>
-                                    <p class="subtitle">Vous connaissiez le Sudoku? Le Takuzu vous attend !<br/> Jouable dans l'invite de commande, le but est de remplir une grille de 0 et 1 selon les règles. Le jeu propose plusieurs niveaux de difficulté, des grilles de tailles variées, une personnalisation des grilles, une création automatisée des grilles et une fonction de résolution intelligente pour aider le joueur en cas de blocage.</p>
+                                    <h6 class="title" data-translate="portfolio-text-takuzu">Takuzu</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-takuzu-details">Vous connaissiez le Sudoku? Le Takuzu vous attend !<br/> Jouable dans l'invite de commande, le but est de remplir une grille de 0 et 1 selon les règles. Le jeu propose plusieurs niveaux de difficulté, des grilles de tailles variées, une personnalisation des grilles, une création automatisée des grilles et une fonction de résolution intelligente pour aider le joueur en cas de blocage.</p>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-cloud-down pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Reports/Takuzu - Rapport.pdf">Télécharger le rapport</a>
+                                        <a style="color: white" href="assets/docs/Reports/Takuzu - Rapport.pdf" data-translate="portfolio-common-link-downloadButton">Télécharger le rapport</a>
                                     </button>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-files pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Codes/Takuzu_2022.zip">Accéder au code</a>
+                                        <a style="color: white" href="assets/docs/Codes/Takuzu_2022.zip" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
                                     </button>
                                 </div>
                             </div>
-                        </div>                                                       
+                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 web bdd new">
+                    <div class="col-md-6 col-lg-4 web bdd">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/ParkInHere.png" class="img-fluid" alt="Park'In Here">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/ParkInHere.png"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">Park'In Here</h6>
-                                    <p class="subtitle">L'application web développée en React qui vous permet de facilement trouver des places de stationnement à proximité dans Paris.</p>
+                                    <h6 class="title" data-translate="portfolio-text-pih">Park'In Here</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-pih-details">L'application web développée en React qui vous permet de facilement trouver des places de stationnement à proximité dans Paris.</p>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-cloud-down pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Reports/Park'In Here - Rapport.pdf">Télécharger le rapport</a>
+                                        <a style="color: white" href="assets/docs/Reports/Park'In Here - Rapport.pdf" data-translate="portfolio-common-link-downloadButton">Télécharger le rapport</a>
                                     </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 java bdd new">
+                    <div class="col-md-6 col-lg-4 java bdd">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/AccountManager.png" class="img-fluid" alt="Gestion de répertoires">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/AccountManager.png"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">Gestion de répertoires</h6>
-                                    <p class="subtitle">Application native permettant l'inscription de comptes, la gestion de ceux-ci par plusieurs acteurs ainsi que certaines fonctionnalités d'administration.</p>
+                                    <h6 class="title" data-translate="portfolio-text-accountManager">Gestion de répertoires</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-accountManager-details">Application native permettant l'inscription de comptes, la gestion de ceux-ci par plusieurs acteurs ainsi que certaines fonctionnalités d'administration.</p>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-cloud-down pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Reports/Gestion de répertoires - Rapport.pdf">Télécharger le rapport</a>
+                                        <a style="color: white" href="assets/docs/Reports/Gestion de répertoires - Rapport.pdf" data-translate="portfolio-common-link-downloadButton">Télécharger le rapport</a>
                                     </button>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-files pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Codes/AccountManager_2023.zip">Accéder au code</a>
+                                        <a style="color: white" href="assets/docs/Codes/AccountManager_2023.zip" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
                                     </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 cps new">
+                    <div class="col-md-6 col-lg-4 cps">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/BankManager.png" class="img-fluid" alt="Gestion de dossier bancaires">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/BankManager.png"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">Gestion de dossier bancaires</h6>
-                                    <p class="subtitle">Prévu pour les banques, cette application permet la manipulation sécurisée de comptes bancaires simples. Allant de la création du compte, jusqu'aux différentes transactions.</p>
+                                    <h6 class="title" data-translate="portfolio-text-bankManager">Gestion de dossier bancaires</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-bankManager-details">Prévu pour les banques, cette application permet la manipulation sécurisée de comptes bancaires simples. Allant de la création du compte, jusqu'aux différentes transactions.</p>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-cloud-down pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Reports/Gestion de dossiers bancaires - Rapport.pdf">Télécharger le rapport</a>
+                                        <a style="color: white" href="assets/docs/Reports/Gestion de dossiers bancaires - Rapport.pdf" data-translate="portfolio-common-link-downloadButton">Télécharger le rapport</a>
                                     </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 python new">
+                    <div class="col-md-6 col-lg-4 python">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/Metro, Boulot, Dodo.png" class="img-fluid" alt="Metro, Boulot, Dodo">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/Metro, Boulot, Dodo.png"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">Metro, Boulot, Dodo</h6>
-                                    <p class="subtitle">A l'image de l'application RATP, ce logiciel avec interface graphique permet de se repérer dans les transports parisiens. Basé sur le plan du metro, en 2016, et les dernières recherches mathématiques en théorie des graphes, le programme vous propose les itinéraires les plus cours pour vous rendre d'une station à une autre.<br/>On se retrouve où ?</p>
+                                    <h6 class="title" data-translate="portfolio-text-mbd">Metro, Boulot, Dodo</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-mbd-details">A l'image de l'application RATP, ce logiciel avec interface graphique permet de se repérer dans les transports parisiens. Basé sur le plan du metro, en 2016, et les dernières recherches mathématiques en théorie des graphes, le programme vous propose les itinéraires les plus cours pour vous rendre d'une station à une autre.<br/>On se retrouve où ?</p>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-cloud-down pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Reports/Metro, Boulot, Dodo - Rapport.pdf">Télécharger le rapport</a>
+                                        <a style="color: white" href="assets/docs/Reports/Metro, Boulot, Dodo - Rapport.pdf" data-translate="portfolio-common-link-downloadButton">Télécharger le rapport</a>
                                     </button>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-files pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Codes/MetroBoulotDodo_2023.zip">Accéder au code</a>
+                                        <a style="color: white" href="assets/docs/Codes/MetroBoulotDodo_2023.zip" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
                                     </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 web bdd new">
+                    <div class="col-md-6 col-lg-4 web bdd">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/MultimediaStore.jpg" class="img-fluid" alt="Multimedia Store">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/MultimediaStore.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">Mutimedia Store</h6>
-                                    <p class="subtitle">Ce projet nous a permit de mettre en application nos compétences en gestion de systèmes d'information. Allant du business plan, passant par les diagrammes de parcours utilisateur et séquences, jusqu'au développement complet du site de vente de produits multimédia.</p>
+                                    <h6 class="title" data-translate="portfolio-text-multimediaStore">Mutimedia Store</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-multimediaStore-details">Ce projet nous a permit de mettre en application nos compétences en gestion de systèmes d'information. Allant du business plan, passant par les diagrammes de parcours utilisateur et séquences, jusqu'au développement complet du site de vente de produits multimédia.</p>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-cloud-down pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Reports/MultimediaStore - Rapport.pdf">Télécharger le rapport</a>
+                                        <a style="color: white" href="assets/docs/Reports/MultimediaStore - Rapport.pdf" data-translate="portfolio-common-link-downloadButton">Télécharger le rapport</a>
                                     </button>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-files pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Codes/MultimediaStore_2024.zip">Accéder au code</a>
+                                        <a style="color: white" href="assets/docs/Codes/MultimediaStore_2024.zip" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
                                     </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 web bdd new">
+                    <div class="col-md-6 col-lg-4 web bdd">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/TicketsManager.png" class="img-fluid" alt="Gestion de tickets">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/TicketsManager.png"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">Gestion de tickets</h6>
-                                    <p class="subtitle">L'organisation est une priorité dans un projet !<br/>Première utilisation de VueJs. Nous souhaitions reproduire un logiciel SaaS de gestion de tickets à l'image de Jira.</p>
+                                    <h6 class="title" data-translate="portfolio-text-ticketsManager">Gestion de tickets</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-ticketsManager-details">L'organisation est une priorité dans un projet !<br/>Première utilisation de VueJs. Nous souhaitions reproduire un logiciel SaaS de gestion de tickets à l'image de Jira.</p>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-files pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Codes/TicketsManager_2024.zip">Accéder au code</a>
+                                        <a style="color: white" href="assets/docs/Codes/TicketsManager_2024.zip" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
                                     </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 python bdd new">
+                    <div class="col-md-6 col-lg-4 python bdd">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/&coute.png" class="img-fluid" alt="&coute">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/&coute.png"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">&coute</h6>
-                                    <p class="subtitle">Vrai logiciel de prise de rendez-vous, il est destiné à une psychologue souhaitant arrêter le format papier et se lancer dans le numérique. Les patients peuvent demander des comptes puis ceux-ci seront allimentés durant leurs rendez-vous. Du côté psychologue la planification est plus simple avec la fonctionalité de prise de rendez-vous.</p>
+                                    <h6 class="title" data-translate="portfolio-text-&coute">&coute</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-&coute-details">Vrai logiciel de prise de rendez-vous, il est destiné à une psychologue souhaitant arrêter le format papier et se lancer dans le numérique. Les patients peuvent demander des comptes puis ceux-ci seront allimentés durant leurs rendez-vous. Du côté psychologue la planification est plus simple avec la fonctionalité de prise de rendez-vous.</p>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-cloud-down pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Reports/&coute - Rapport.pdf">Télécharger le rapport</a>
+                                        <a style="color: white" href="assets/docs/Reports/&coute - Rapport.pdf" data-translate="portfolio-common-link-downloadButton">Télécharger le rapport</a>
                                     </button>
                                     <button class="btn btn-primary btn-rounded">
                                         <i class="ti-files pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Codes/AgendaPsychologue_2023.zip">Accéder au code</a>
+                                        <a style="color: white" href="assets/docs/Codes/AgendaPsychologue_2023.zip" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
                                     </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 web new">
+                    <div class="col-md-6 col-lg-4 web">
                         <div class="portfolio-item">
                             <img src="assets/imgs/Project/CalCarbone.png" class="img-fluid" alt="CalCarbone">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Project/CalCarbone.png"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">CalCarbone</h6>
-                                    <p class="subtitle">Première expèrience du JavaScript, ce site web est un calculateur d'empreinte carbone. Perméttant d'entrer ses moyens de transport quotidien et d'obtenir un résultat du CO2 rejeté par période. Il est aussi possible de s'informer via un onglet dédié.</p>
-                                    <button class="btn btn-primary btn-rounded">
+                                    <h6 class="title" data-translate="portfolio-text-calcarbone">CalCarbone</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-calcarbone-details">Première expèrience du JavaScript, ce site web est un calculateur d'empreinte carbone. Perméttant d'entrer ses moyens de transport quotidien et d'obtenir un résultat du CO2 rejeté par période. Il est aussi possible de s'informer via un onglet dédié.</p>
+                                    <button class="btn btn-primary btn-rounded" href="components.html">
                                         <i class="ti-files pr-2"></i>
-                                        <a style="color: white" href="assets/docs/Codes/CalCarbone_2023.zip">Accéder au code</a>
+                                        <a style="color: white" href="https://github.com/Ma2t-Br/cineproj" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
                                     </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div> 
-            </div>  
-        </div>            
+                    <div class="col-md-6 col-lg-4 web java bdd">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/Project/CineProj.png" class="img-fluid" alt="CineProj">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/Project/CineProj.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title" data-translate="portfolio-text-cineproj">CineProj</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-cineproj-details">Projet pédagogique visant à réaliser une version simplifiée d'Allociné, permettant la gestion de cinémas, de films, de projections et d'utilisateurs.</p>
+                                    <button class="btn btn-primary btn-rounded" href="components.html">
+                                        <i class="ti-files pr-2"></i>
+                                        <a style="color: white" href="assets/docs/Codes/CalCarbone_2023.zip" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mobile bdd">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/Project/ALTN82.png" class="img-fluid" alt="ALTN82">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/Project/ALTN82.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title" data-translate="portfolio-text-altn82">ALTN82 Mobile app</h6>
+                                    <p class="subtitle" data-translate="portfolio-text-altn82-details">Premier projet mobile. Initiation à une application permettant aux utilisateurs de visualiser des événements, de prendre des photos, interagir avec une carte et changer de langue.</p>
+                                    <button class="btn btn-primary btn-rounded" href="components.html">
+                                        <i class="ti-files pr-2"></i>
+                                        <a style="color: white" href="" data-translate="portfolio-common-link-accessButton">Accéder au code</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- End of portfolio section -->
 
+    <!-- Contact Section -->
     <div class="section contact" id="contact">
         <div class="worldMap">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="contact-form-card">
-                            <h4 class="contact-title">Envoyer un message</h4>
+                            <h4 class="contact-title" data-translate="contact-text-title">Envoyer un message</h4>
                             <form action="">
                                 <div class="overlay">
-                                    <span class="overlay-text">In development</span>
+                                    <span class="overlay-text" data-translate="common-text-inDev">In development</span>
                                 </div>
                                 <div class="form-group">
                                     <input  class="form-control" type="text" placeholder="Name *" required>
@@ -673,20 +714,20 @@
                                     <textarea class="form-control" placeholder="Message *" rows="7" required></textarea>
                                 </div>
                                 <div class="form-group ">
-                                    <button type="submit" class="form-control btn btn-primary" >Send Message</button>
+                                    <button type="submit" class="form-control btn btn-primary" data-translate="contact-text-send">Send</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="contact-info-card">
-                            <h4 class="contact-title">Me contacter</h4>
+                            <h4 class="contact-title" data-translate="contact-text-infos-title">Me contacter</h4>
                             <div class="row mb-2">
                                 <div class="col-1 pt-1 mr-1">
                                     <i class="ti-mobile icon-md"></i>
                                 </div>
                                 <div class="col-10 ">
-                                    <h6 class="d-inline">Phone : <br> <span class="text-muted">+33 7 82 94 24 91</span></h6>
+                                    <h6 class="d-inline"><span data-translate="contact-text-infos-phone">Phone : </span><br><span class="text-muted">+33 7 82 94 24 91</span></h6>
                                 </div>
                             </div>
                             <div class="row mb-2">
@@ -694,7 +735,7 @@
                                     <i class="ti-map-alt icon-md"></i>
                                 </div>
                                 <div class="col-10">
-                                    <h6 class="d-inline">Address :<br> <span class="text-muted">Antony, 92160 France</span></h6>
+                                    <h6 class="d-inline"><span data-translate="contact-text-infos-address">Address : </span><br><span class="text-muted">Antony, 92160 France</span></h6>
                                 </div>
                             </div>
                             <div class="row mb-2">
@@ -702,7 +743,7 @@
                                     <i class="ti-email icon-md"></i>
                                 </div>
                                 <div class="col-10">
-                                    <h6 class="d-inline">Email :<br> <span class="text-muted">matthieu.brandao@gmail.com</span></h6>
+                                    <h6 class="d-inline"><span data-translate="contact-text-infos-email">Email : </span><br><span class="text-muted">matthieu.brandao@gmail.com</span></h6>
                                 </div>
                             </div>
                             <ul class="social-icons pt-4">
@@ -714,29 +755,22 @@
             </div>
         </div>
     </div>
+
     <footer class="footer py-3">
         <div class="container">
             <p class="small mb-0 text-light">
-                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <span class="text-danger" title="Matthieu Brandao">Matthieu Brandao</span>
+                <span data-translate="footer-text-copyTag">&copy; Created by Matthieu Brandao</span>
             </p>
         </div>
     </footer>
 
-	<!-- core  -->
+    <!-- Scripts  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
-
-    <!-- bootstrap 3 affix -->
     <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
-
-    <!-- Isotope  -->
     <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
-    
-    <!-- Google mpas -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
-
-    <!-- main js -->
     <script src="assets/js/script.js"></script>
-
+    <script src="assets/js/translations.js"></script>
 </body>
 </html>
