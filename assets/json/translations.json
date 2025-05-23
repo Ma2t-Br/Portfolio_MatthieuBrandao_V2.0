@@ -370,6 +370,10 @@
             "portfolio-filter-bdd": {
                 "Fr": "BDD(SQL)",
                 "En": "DB(SQL)"
+            },
+            "portfolio-filter-mobile": {
+                "Fr": "Mobile",
+                "En": "Mobile"
             }
         },
         "common": {
@@ -502,6 +506,22 @@
             "portfolio-text-calcarbone-details": {
                 "Fr": "Première expèrience du JavaScript, ce site web est un calculateur d'empreinte carbone. Perméttant d'entrer ses moyens de transport quotidien et d'obtenir un résultat du CO2 rejeté par période. Il est aussi possible de s'informer via un onglet dédié.",
                 "En": "First experience with JavaScript, this website is a carbon footprint calculator. It allows you to enter your daily means of transportation and get a result of the CO2 emitted per period. It is also possible to get information via a dedicated tab."
+            },
+            "portfolio-text-cineproj": {
+                "Fr": "CineProj",
+                "En": "CineProj"
+            },
+            "portfolio-text-cineproj-details": {
+                "Fr": "Projet pédagogique visant à réaliser une version simplifiée d'Allociné, permettant la gestion de cinémas, de films, de projections et d'utilisateurs.",
+                "En": "Pedagogical project aimed at creating a simplified version of Allociné, enabling the management of cinemas, films, screenings and users."
+            },
+            "portfolio-text-altn82": {
+                "Fr": "ALTN82 Mobile app",
+                "En": "ALTN82 Mobile app"
+            },
+            "portfolio-text-cineproj-details": {
+                "Fr": "Premier projet mobile. Initiation à une application permettant aux utilisateurs de visualiser des événements, de prendre des photos, interagir avec une carte et changer de langue.",
+                "En": "First mobile project. Introduction to an application enabling users to view events, take photos, interact with a map and change language."
             }
         }
     },
