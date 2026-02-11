@@ -27,7 +27,7 @@
   --navication-link-hover-color: rgba(40, 20, 70, 0.5);
 ```
 
-<h3 style="color:#8B4513">Brown
+<h3 style="color:#8B4513">Brown (Current)
 ```
   --main-site-color: #8B4513;
   --secondary-site-color: #5C4033;
@@ -45,7 +45,7 @@
   --navication-link-hover-color: rgba(64, 64, 64, 0.5);
 ```
 
-<h3 style="color:#F85C70">Red (current)
+<h3 style="color:#F85C70">Red
 ```
   --main-site-color: #F85C70;
   --secondary-site-color: #f63750;

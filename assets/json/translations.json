@@ -5,8 +5,8 @@
             "En": "Matthieu Brandao"
         },
         "common-text-job": {
-            "Fr": "Etudiant EFREI Paris | Apprenti ingénieur Logiciels et Systèmes d'Informations",
-            "En": "Student at EFREI Paris | Apprentice Software Engineer"
+            "Fr": "Ingénieur Logiciels et Systèmes d'Informations",
+            "En": "Software Engineer"
         },
         "common-text-cvDownloadButton": {
             "Fr": "Télécharger mon CV",
@@ -23,14 +23,14 @@
     },
     "header": {
         "header-text-hi": {
-            "Fr": "Bonjour, je suis",
-            "En": "Hello, I am"
+            "Fr": "Bonjour,",
+            "En": "Hi,"
         }
     },
     "navbar": {
         "navbar-text-subtitle": {
-            "Fr": "Votre futur apprenti",
-            "En": "Your future apprentice"
+            "Fr": "Prêt à l'ambauche",
+            "En": "Ready to work"
         },
         "navbar-link-home": {
             "Fr": "Accueil",
@@ -60,8 +60,8 @@
                 "En": "Who am I?"
             },
             "about-text-details": {
-                "Fr": "Passionné d'informatique depuis le lycée, je suis actuellement étudiant à Efrei Paris. En 2023, j'ai fait le choix d'approfondir mes connaissances dans le développement de logiciels d'informations en alternance. Dynamique et sociable, j'aime animer des ateliers et échanger avec les acteurs de mes projets.",
-                "En": "Passionate about computer science since high school, I am currently a student at Efrei Paris. In 2023, I chose to deepen my knowledge in the development of information systems in an apprenticeship. Dynamic and sociable, I enjoy leading workshops and exchanging with the stakeholders of my projects."
+                "Fr": "Passionné d'informatique depuis le lycée, j'ai suivi des études en développement logiciels à Efrei Paris. En 2023, j'ai fait le choix d'approfondir mes connaissances dans le développement de logiciels d'informations en alternance. Dynamique et sociable, j'aime animer des ateliers et échanger avec les acteurs de mes projets.",
+                "En": "Passionate about computer science since high school, I followed my studies in software engineering at Efrei Paris. In 2023, I chose to deepen my knowledge in the development of information systems in an apprenticeship. Dynamic and sociable, I enjoy leading workshops and exchanging with the stakeholders of my projects."
             }
         },
         "personalInfos": {
@@ -152,8 +152,8 @@
                 "En": "2023 - Present"
             },
             "resume-text-jobs-memority-details": {
-                "Fr": "Déploiement et support d'une plateforme d'IAM afin de gérer les employés de Memority. Animation d'ateliers, rédaction de spécifications et intégration de l'application SaaS.",
-                "En": "Deployment and support of an IAM platform to manage Memority employees. Leading workshops, writing specifications, and integrating the SaaS application."
+                "Fr": "Déploiement, Intégration et support de solutions IAM Memority. Animation d'ateliers et rédaction de spécifications. Développement d'outils pour les partenaires intégrateurs (Plugins, Script, Accélérateurs).",
+                "En": "Deployment, Integration and support of Memority IAM solutions. Leading workshops and writing specifications. Development of tools for integration partners (Plugins, Scripts, Accelerators)."
             },
             "resume-text-jobs-efreiTir": {
                 "Fr": "Vice-président | Association Efrei Tir",
@@ -206,8 +206,8 @@
                 "En": "2023 - Present"
             },
             "resume-text-education-efreiPGE-details": {
-                "Fr": "Vise à des compétences solides dans tous les domaines du numérique et une bonne connaissance des réalités de l'entreprise grâce à une formation professionnelle.",
-                "En": "Aims to develop strong skills in all areas of digital technology and a good understanding of business realities through professional training."
+                "Fr": "Vise à des compétences solides dans tous les domaines du numérique et une bonne connaissance des réalités de l'entreprise grâce à une formation professionnelle en informatique.",
+                "En": "Aims to develop strong skills in all areas of digital technology and a good understanding of business realities through professional training in informatics."
             },
             "resume-text-education-efreiCPGE": {
                 "Fr": "Prépa intégrée EFREI Paris | Villejuif",
@@ -305,8 +305,8 @@
             "En": "Hours of personal coding"
         },
         "breakInfos-number-infos-nbProjects": {
-            "Fr": "20",
-            "En": "20"
+            "Fr": "25",
+            "En": "25"
         },
         "breakInfos-text-infos-nbProjects": {
             "Fr": "Projets soumis",
@@ -440,7 +440,7 @@
                 "En": "Takuzu"
             },
             "portfolio-text-takuzu-details": {
-                "Fr": "Vous connaissiez le Sudoku? Le Takuzu vous attend !Jouable dans l'invite de commande, le but est de remplir une grille de 0 et 1 selon les règles. Le jeu propose plusieurs niveaux de difficulté, des grilles de tailles variées, une personnalisation des grilles, une création automatisée des grilles et une fonction de résolution intelligente pour aider le joueur en cas de blocage.",
+                "Fr": "Vous connaissiez le Sudoku? Le Takuzu vous attend ! Jouable dans l'invite de commande, le but est de remplir une grille de 0 et 1 selon les règles. Le jeu propose plusieurs niveaux de difficulté, des grilles de tailles variées, une personnalisation des grilles, une création automatisée des grilles et une fonction de résolution intelligente pour aider le joueur en cas de blocage.",
                 "En": "You knew Sudoku? Takuzu awaits you! Playable in the command prompt, the goal is to fill a grid of 0s and 1s according to the rules. The game offers several difficulty levels, grids of various sizes, grid customization, automated grid creation, and an intelligent solving function to help the player if they get stuck."
             },
             "portfolio-text-pih": {
@@ -519,9 +519,17 @@
                 "Fr": "ALTN82 Mobile app",
                 "En": "ALTN82 Mobile app"
             },
-            "portfolio-text-cineproj-details": {
+            "portfolio-text-altn82-details": {
                 "Fr": "Premier projet mobile. Initiation à une application permettant aux utilisateurs de visualiser des événements, de prendre des photos, interagir avec une carte et changer de langue.",
                 "En": "First mobile project. Introduction to an application enabling users to view events, take photos, interact with a map and change language."
+            },
+            "portfolio-text-inetumAppScanner": {
+                "Fr": "Inetum App. Scanner",
+                "En": "Inetum App. Scanner"
+            },
+            "portfolio-text-inetumAppScanner-details": {
+                "Fr": "Projet de fin d'études en collaboration avec Inetum. L'entreprise a exprimé le besoin d'avoir une solution utilisant l'intéligence artificielle pour analyser du code source et en sortir en résultats des graphs de dépendances, les vulnérabilités du code et un rapport d'audit.",
+                "En": "Final year project in collaboration with Inetum. The company asked for a solution witch uses the artificial intelligence to analyse source code and have as output dependency graphs, code vulnerabilities and an audit report."
             }
         }
     },
